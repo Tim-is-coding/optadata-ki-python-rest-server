@@ -22,7 +22,7 @@ def hello():
 @app.get("/icd10_code/")
 def diagnose_to_ICD10_code(query: Optional[str] = None):
     # Process the recommendation request here
-    return ChatGPTDiagnoneToICD10CodeUtil().get_icd10_code_for_diagnose("diagnose_text")
+    return ChatGPTDiagnoneToICD10CodeUtil().get_icd10_code_for_diagnose(query)
 
 
 
