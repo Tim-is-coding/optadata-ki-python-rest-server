@@ -3,6 +3,7 @@ from fastapi import FastAPI
 from typing import Optional
 
 from logic.chat_gpt_diagnone_to_icd10_code_util import ChatGPTDiagnoneToICD10CodeUtil
+from logic.product_recommender_ai_model import ProductRemcommenderAiModel
 from model.recommondation_request import RecommendationRequest
 
 app = FastAPI()
@@ -12,18 +13,17 @@ app = FastAPI()
 async def startup_event():
     # load all data into cache and init AI models to serve even the first request at maximum speed
     ChatGPTDiagnoneToICD10CodeUtil()
+    ProductRemcommenderAiModel()
 
 
 @app.get("/")
 def hello():
-    return 'Service up and running!'
+    return 'Dem CIO sein REST Service is up and running!'
 
 
 @app.get("/icd10_code/")
-def diagnose_to_ICD10_code(query: Optional[str] = None):
-    # Process the recommendation request here
+def diagnose_to_icd10_code(query: Optional[str] = None):
     return ChatGPTDiagnoneToICD10CodeUtil().get_icd10_code_for_diagnose(query)
-
 
 
 @app.post("/recommendations/")

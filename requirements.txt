@@ -6,3 +6,6 @@ python-multipart
 pydantic
 openai==0.28
 pandas
+joblib
+tensorflow
+scikit-learn

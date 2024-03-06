@@ -21,9 +21,9 @@ class ChatGPTDiagnoneToICD10CodeUtil:
         print("Loading all CSV data for ICD10-Codes into cache...")
 
         self.df_block = pd.read_csv(
-            'data/df_block.csv')
+            'data/csv/df_block.csv')
         self.df_category = pd.read_csv(
-            'data/df_category_filtered.csv')
+            'data/csv/df_category_filtered.csv')
 
         print("...Done! Successfully loaded all CSV data for ICD10-Codes into cache!")
 
