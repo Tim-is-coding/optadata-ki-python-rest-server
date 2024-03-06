@@ -37,22 +37,13 @@ class ProductRemcommenderAiModel:
 
     def _execute_recommondation_models(self, icd_10_code, krankenkassen_ik, bundesland):
 
-        # Reshape inputs to match model expectations
-        icd10_code = np.array([icd_10_code]).reshape(1, -1)
-        insurance_id = np.array([krankenkassen_ik]).reshape(1, -1)
+        # step 1: predict product
+        icd_10_code_encoded = self.le_icd10.transform([icd_10_code])
 
-        # Prepare bundesland input as dummy variables
-        bundesland_input = np.zeros((1, len(bundesland_mapping)))
-        if user_inputs['Bundesland'] != 'Brandenburg':
-            bundesland_index = bundesland_mapping.index('Bundesland_' + user_inputs['Bundesland'])
-            bundesland_input[0, bundesland_index] = 1
-
-        # Run model prediction
-        predictions = self.model_product_adjusted.predict([icd10_code, insurance_id, bundesland])
-
-        # Get top 3 predictions and probabilities
-        top_3_indices = np.argsort(predictions[0])[-3:][::-1]
-        top_3_probs = np.sort(predictions[0])[-3:][::-1]
+    def _predict_product(self, icd_10_code_encoded, krankenkassen_ik_encoded, bundesland_encoded):
+        # predict product
+        product_prediction = self.model_product_adjusted.predict([icd_10_code_encoded, krankenkassen_ik_encoded, bundesland_encoded])
+        return product_prediction
 
     def _load_data(self):
         print("Loading all Label Encoders and H5 models...")

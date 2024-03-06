@@ -4,8 +4,8 @@ gunicorn
 jinja2
 python-multipart
 pydantic
-openai==0.28
+openai
 pandas
 joblib
-tensorflow
+tensorflow==2.15.0
 scikit-learn
