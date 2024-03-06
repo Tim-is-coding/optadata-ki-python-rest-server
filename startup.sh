@@ -1,1 +1,1 @@
-python -m uvicorn main:app --host 0.0.0.0
+python -m uvicorn rest_server:app --host 0.0.0.0
