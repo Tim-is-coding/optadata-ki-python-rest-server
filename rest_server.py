@@ -1,5 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
+from typing import Optional
 
 from logic.chat_gpt_diagnone_to_icd10_code_util import ChatGPTDiagnoneToICD10CodeUtil
 from model.recommondation_request import RecommendationRequest
@@ -16,6 +17,13 @@ async def startup_event():
 @app.get("/")
 def hello():
     return 'Service up and running!'
+
+
+@app.get("/icd10_code/")
+def diagnose_to_ICD10_code(query: Optional[str] = None):
+    # Process the recommendation request here
+    return ChatGPTDiagnoneToICD10CodeUtil().get_icd10_code_for_diagnose("diagnose_text")
+
 
 
 @app.post("/recommendations/")
