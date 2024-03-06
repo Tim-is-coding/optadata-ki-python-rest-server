@@ -1,2 +1,5 @@
-Flask
-Werkzeug==2.2.2
+fastapi
+uvicorn
+gunicorn
+jinja2
+python-multipart
