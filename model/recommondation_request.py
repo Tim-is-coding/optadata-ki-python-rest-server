@@ -4,5 +4,5 @@ from pydantic import BaseModel
 
 class RecommendationRequest(BaseModel):
     krankenkassenIk: str
-    diagnoseText: Optional[str] = None
+    bundesLand: str
     icd10Code: Optional[str] = None

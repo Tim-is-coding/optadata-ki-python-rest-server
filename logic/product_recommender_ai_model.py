@@ -1,6 +1,8 @@
-import openai
 import joblib
 from tensorflow.keras.models import load_model
+import numpy as np
+
+from model.recommondation_request import RecommendationRequest
 
 
 class ProductRemcommenderAiModel:
@@ -23,8 +25,34 @@ class ProductRemcommenderAiModel:
             cls._instance._load_data()
         return cls._instance
 
-    def get_icd10_code_for_diagnose(self, diagnose_text):
-        return self._execute_diagnose_translation_for_icd_10_code(diagnose_text)
+    def recommend_hilfsmittel(self, recommondation_request: RecommendationRequest):
+        icd_10_code = recommondation_request.icd10Code
+        krankenkassen_ik = recommondation_request.krankenkassenIk
+        bundesland = recommondation_request.bundesLand
+        assert icd_10_code is not None
+        assert krankenkassen_ik is not None
+        assert bundesland is not None
+
+        return self._execute_recommondation_models(icd_10_code, krankenkassen_ik, bundesland)
+
+    def _execute_recommondation_models(self, icd_10_code, krankenkassen_ik, bundesland):
+
+        # Reshape inputs to match model expectations
+        icd10_code = np.array([icd_10_code]).reshape(1, -1)
+        insurance_id = np.array([krankenkassen_ik]).reshape(1, -1)
+
+        # Prepare bundesland input as dummy variables
+        bundesland_input = np.zeros((1, len(bundesland_mapping)))
+        if user_inputs['Bundesland'] != 'Brandenburg':
+            bundesland_index = bundesland_mapping.index('Bundesland_' + user_inputs['Bundesland'])
+            bundesland_input[0, bundesland_index] = 1
+
+        # Run model prediction
+        predictions = self.model_product_adjusted.predict([icd10_code, insurance_id, bundesland])
+
+        # Get top 3 predictions and probabilities
+        top_3_indices = np.argsort(predictions[0])[-3:][::-1]
+        top_3_probs = np.sort(predictions[0])[-3:][::-1]
 
     def _load_data(self):
         print("Loading all Label Encoders and H5 models...")
@@ -41,47 +69,3 @@ class ProductRemcommenderAiModel:
         self.model_price_adjusted = load_model('data/h5/M2V2_PriceRecommendation_selbstlernend.h5')
 
         print("...Done! Successfully loaded all Label Encoders and H5 models!")
-
-    def _execute_diagnose_translation_for_icd_10_code(self, diagnose_text):
-        # Set your OpenAI API key
-        openai.api_key = self.__GPTapi_key
-
-        # Convert df_block DataFrame to a list of tuples for easier handling in the prompt
-        chapters_info = self.df_block[['Label Text', 'Class Code']].apply(tuple, axis=1).tolist()
-
-        # Create the prompt
-        prompt = f"ich gebe dir einen Diagnosetext und ich gebe dir ein Inhaltsverzeichnis in Form von Label Text und Class Codes. Suche mir den Class Code raus, in dem Du den Diagnosetext vermutest (Höchste Wahrscheinlichkeit). Ich will nur den Class Code. Kein weiteres Bla bla. Examplarische Antwort: A00-A09. DiagnoseText: {diagnose_text}. Basierend auf dem Inhaltsverzeichnis: {chapters_info}.Wenn du nichts findest, dann gebe diese Antwort wieder: Dies ist ein reduziertes Sprachmodell im Rahmen der OptaData-Challenge und kann daher dein Vorschlag nicht finden."
-
-        # Run model
-        response = openai.ChatCompletion.create(
-            model="gpt-4",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": prompt}
-            ]
-        )
-
-        # Use the response to filter df_category
-        response_code = response.choices[0].message['content'].strip().replace('"', '').replace("'",
-                                                                                                "")  # Strip both double and single quotation marks
-        filtered_df_category = self.df_category[
-            self.df_category['Block of Category'].str.contains(response_code)].copy()
-
-        # Convert the filtered DataFrame to a list of tuples for the second prompt
-        filtered_chapters_info = filtered_df_category[['Label Text', 'Class Code']].apply(tuple, axis=1).tolist()
-
-        # Create the second prompt with the filtered DataFrame
-        prompt_2 = f"ich gebe dir einen Diagnosetext und ich gebe dir ein Inhaltsverzeichnis in Form von Label Text und Class Codes. Suche mir den Class Code raus, in dem Du den Diagnosetext vermutest (höchste Wahrscheinlichkeit). Ich will nur den Class Code. Kein weiteres Bla bla. Examplarische Antwort: A00. DiagnoseText: {diagnose_text}. Durchsuche die Liste: {filtered_chapters_info}.Gib mir den Class Code wieder, durchsuche den Label Text. Wenn du nichts findest, dann gebe diese Antwort wieder: Dies ist ein reduziertes Sprachmodell im Rahmen der OptaData-Challenge und kann daher dein Vorschlag nicht finden."
-
-        # Run second model
-        response_2 = openai.ChatCompletion.create(
-            model="gpt-4",
-            messages=[
-                {"role": "system", "content": "You are a helpful assistant."},
-                {"role": "user", "content": prompt_2}
-            ]
-        )
-
-        # Return the second GPT-3 response, stripping both double and single quotation marks
-        final_response = response_2.choices[0].message['content'].strip().replace('"', '').replace("'", "")
-        return final_response

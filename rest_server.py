@@ -28,6 +28,7 @@ def diagnose_to_icd10_code(query: Optional[str] = None):
 
 @app.post("/recommendations/")
 async def create_recommendation(request: RecommendationRequest):
+    print()
     # Process the recommendation request here
     return {"krankenkassenIk": request.krankenkassenIk, "diagnoseText": request.diagnoseText,
             "icd10Code": request.icd10Code}
