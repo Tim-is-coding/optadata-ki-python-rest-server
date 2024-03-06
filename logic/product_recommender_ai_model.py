@@ -2,6 +2,8 @@ import joblib
 from tensorflow.keras.models import load_model
 import numpy as np
 
+from model.ai_recommondation import AiRecommondation
+from model.ai_recommondation_item import AiRecommondationItem
 from model.recommondation_request import RecommendationRequest
 
 
@@ -29,6 +31,7 @@ class ProductRemcommenderAiModel:
         icd_10_code = recommondation_request.icd10Code
         krankenkassen_ik = recommondation_request.krankenkassenIk
         bundesland = recommondation_request.bundesLand
+
         assert icd_10_code is not None
         assert krankenkassen_ik is not None
         assert bundesland is not None
@@ -37,7 +40,32 @@ class ProductRemcommenderAiModel:
 
     def _execute_recommondation_models(self, icd_10_code, krankenkassen_ik, bundesland):
 
+        predictions = []
+
         # step 1: predict product
+        recommendations, probabilities = self._predict_product(icd_10_code, krankenkassen_ik, bundesland)
+
+        # step 2: predict price
+        for i in range(len(recommendations)):
+            recommondation = recommendations[i]
+            probability = probabilities[i]
+
+            # call the price prediction model for each recommendation
+            price_options = self._predict_price(icd_10_code, krankenkassen_ik, bundesland, recommondation)
+
+            prices = []
+            for price_option in price_options:
+                price = price_option[0]
+                price_probability = price_option[1]
+
+                ai_recommondation_item = AiRecommondationItem(value=price, percentage=price_probability)
+                prices.append(ai_recommondation_item)
+
+            ai_recommondation = AiRecommondation(hilfsmittelNummer=recommondation, prices=price_options, probability=probability)
+            predictions.append(ai_recommondation)
+
+        return predictions
+    def _predict_product(self, icd_10_code, krankenkassen_ik, bundesland):
         icd_10_code_encoded = self.le_icd10.transform([icd_10_code])
         krankenkassen_ik_encoded = self.le_insurance.transform([krankenkassen_ik])
 
@@ -59,16 +87,36 @@ class ProductRemcommenderAiModel:
         recommendations = self.le_positionsnummer.inverse_transform(top_3_indices)
         probabilities = top_3_probs
 
-        # Print recommendations and probabilities
-        print("Top 3 Product Article Numbers and Probabilities:")
-        for product, prob in zip(recommendations, probabilities):
-            print(f'Product Article Number: {product}, Probability: {prob:.4f}')
+        return recommendations, probabilities
 
+    def _predict_price(self, icd_10_code, krankenkassen_ik, bundesland, hilfsmittel_nummer):
+        icd_10_code_encoded = self.le_icd10.transform([icd_10_code])
+        krankenkassen_ik_encoded = self.le_insurance.transform([krankenkassen_ik])
+        positionsnummer_encoded = self.le_positionsnummer.transform(hilfsmittel_nummer)[0]
 
-    def _predict_product(self, icd_10_code_encoded, krankenkassen_ik_encoded, bundesland_encoded):
-        # predict product
-        product_prediction = self.model_product_adjusted.predict([icd_10_code_encoded, krankenkassen_ik_encoded, bundesland_encoded])
-        return product_prediction
+        bundesland_zeros = np.zeros((1, len(self.bundesland_mapping)))
+        if bundesland != 'Brandenburg':
+            bundesland_index = self.bundesland_mapping.index('Bundesland_' + bundesland)
+            bundesland_zeros[0, bundesland_index] = 1
+
+        icd10_code = np.array([icd_10_code_encoded]).reshape(1, -1)
+        insurance_id = np.array([krankenkassen_ik_encoded]).reshape(1, -1)
+        positionsnummer = np.array([positionsnummer_encoded]).reshape(1, -1)
+
+        # Run model prediction
+        price_probabilities = self.model_price_adjusted.predict(
+            [icd10_code, insurance_id, positionsnummer, bundesland_zeros])
+
+        # Extract the top 3 price indices based on the highest probabilities
+        top_3_price_indices = np.argsort(price_probabilities[0])[-3:][::-1]
+
+        price_options = []
+        for idx in top_3_price_indices:
+            predicted_price = self.le_preis.inverse_transform([idx])[0]
+            probability = price_probabilities[0][idx]
+            price_options.append((predicted_price, probability))
+
+        return price_options
 
     def _load_data(self):
         print("Loading all Label Encoders and H5 models...")
