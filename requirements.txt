@@ -7,5 +7,5 @@ pydantic
 openai
 pandas
 joblib
-tensorflow==2.15.0
+tensorflow
 scikit-learn
