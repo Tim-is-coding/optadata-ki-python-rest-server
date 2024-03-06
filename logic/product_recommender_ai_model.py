@@ -39,6 +39,31 @@ class ProductRemcommenderAiModel:
 
         # step 1: predict product
         icd_10_code_encoded = self.le_icd10.transform([icd_10_code])
+        krankenkassen_ik_encoded = self.le_insurance.transform([krankenkassen_ik])
+
+        bundesland_zeros = np.zeros((1, len(self.bundesland_mapping)))
+        if bundesland != 'Brandenburg':
+            bundesland_index = self.bundesland_mapping.index('Bundesland_' + bundesland)
+            bundesland_zeros[0, bundesland_index] = 1
+
+        icd10_code = np.array([icd_10_code_encoded]).reshape(1, -1)
+        insurance_id = np.array([krankenkassen_ik_encoded]).reshape(1, -1)
+
+        # Run model prediction
+        predictions = self.model_product_adjusted.predict([icd10_code, insurance_id, bundesland_zeros])
+
+        # Get top 3 predictions and probabilities
+        top_3_indices = np.argsort(predictions[0])[-3:][::-1]
+        top_3_probs = np.sort(predictions[0])[-3:][::-1]
+
+        recommendations = self.le_positionsnummer.inverse_transform(top_3_indices)
+        probabilities = top_3_probs
+
+        # Print recommendations and probabilities
+        print("Top 3 Product Article Numbers and Probabilities:")
+        for product, prob in zip(recommendations, probabilities):
+            print(f'Product Article Number: {product}, Probability: {prob:.4f}')
+
 
     def _predict_product(self, icd_10_code_encoded, krankenkassen_ik_encoded, bundesland_encoded):
         # predict product

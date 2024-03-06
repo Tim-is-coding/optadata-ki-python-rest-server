@@ -14,6 +14,7 @@ async def startup_event():
     # load all data into cache and init AI models to serve even the first request at maximum speed
     ChatGPTDiagnoneToICD10CodeUtil()
     ProductRemcommenderAiModel()
+    ProductRemcommenderAiModel().recommend_hilfsmittel(RecommendationRequest(krankenkassenIk="105313145", bundesLand="Hessen", icd10Code="R32"))
 
 
 @app.get("/")
