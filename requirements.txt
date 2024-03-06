@@ -4,3 +4,5 @@ gunicorn
 jinja2
 python-multipart
 pydantic
+openai==0.28
+pandas

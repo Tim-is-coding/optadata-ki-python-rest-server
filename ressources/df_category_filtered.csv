@@ -1,0 +1,1321 @@
+Class Code,Label Text,Block of Category
+A00,Cholera,A00-A09
+A00.0,"Cholera durch Vibrio cholerae O:1, Biovar cholerae",A00-A09
+A00.1,"Cholera durch Vibrio cholerae O:1, Biovar eltor",A00-A09
+A01.1,Paratyphus A,A00-A09
+A01.3,Paratyphus C,A00-A09
+A02,Sonstige Salmonelleninfektionen,A00-A09
+A03.1,Shigellose durch Shigella flexneri,A00-A09
+A04.6,Enteritis durch Yersinia enterocolitica,A00-A09
+A04.8,Sonstige näher bezeichnete bakterielle Darminfektionen,A00-A09
+A05,"Sonstige bakteriell bedingte Lebensmittelvergiftungen, anderenorts nicht klassifiziert",A00-A09
+A08.5,Sonstige näher bezeichnete Darminfektionen,A00-A09
+A09.0,Sonstige und nicht näher bezeichnete Gastroenteritis und Kolitis infektiösen Ursprungs,A00-A09
+A09.9,Sonstige und nicht näher bezeichnete Gastroenteritis und Kolitis nicht näher bezeichneten Ursprungs,A00-A09
+A15,"Tuberkulose der Atmungsorgane, bakteriologisch oder histologisch gesichert",A15-A19
+A17.8,Sonstige Tuberkulose des Nervensystems,A15-A19
+A17.9,"Tuberkulose des Nervensystems, nicht näher bezeichnet ",A15-A19
+A23,Brucellose,A20-A28
+A23.0,Brucellose durch Brucella melitensis,A20-A28
+A41.0,Sepsis durch Staphylococcus aureus,A30-A49
+A41.4,Sepsis durch Anaerobier,A30-A49
+A41.8,Sonstige näher bezeichnete Sepsis,A30-A49
+A41.9,"Sepsis, nicht näher bezeichnet",A30-A49
+A46,Erysipel [Wundrose],A30-A49
+A52.0,Kardiovaskuläre Syphilis,A50-A64
+A52.1,Floride Neurosyphilis,A50-A64
+A56.1,Chlamydieninfektion des Pelviperitoneums und sonstiger Urogenitalorgane,A50-A64
+A77.0,Zeckenbissfieber durch Rickettsia rickettsii,A75-A79
+A80.9,"Akute Poliomyelitis, nicht näher bezeichnet",A80-A89
+B01.8,Varizellen mit sonstigen Komplikationen,B00-B09
+B01.9,Varizellen ohne Komplikation,B00-B09
+B02.7,Zoster generalisatus,B00-B09
+B07,Viruswarzen,B00-B09
+B37.9,"Kandidose, nicht näher bezeichnet",B35-B49
+B44.0,Invasive Aspergillose der Lunge,B35-B49
+B76.0,Ankylostomiasis,B65-B83
+B97.2,"Koronaviren als Ursache von Krankheiten, die in anderen Kapiteln klassifiziert sind",B95-B98
+B99,Sonstige und nicht näher bezeichnete Infektionskrankheiten,B99-B99
+C01,Bösartige Neubildung des Zungengrundes,C00-C14
+C02.1,Zungenrand,C00-C14
+C03.0,Oberkieferzahnfleisch,C00-C14
+C04.0,Vorderer Teil des Mundbodens,C00-C14
+C04.9,"Mundboden, nicht näher bezeichnet",C00-C14
+C06.0,Wangenschleimhaut,C00-C14
+C08.1,Glandula sublingualis,C00-C14
+C09.8,"Tonsille, mehrere Teilbereiche überlappend",C00-C14
+C09.9,"Tonsille, nicht näher bezeichnet",C00-C14
+C10.2,Seitenwand des Oropharynx,C00-C14
+C10.3,Hinterwand des Oropharynx,C00-C14
+C10.8,"Oropharynx, mehrere Teilbereiche überlappend",C00-C14
+C10.9,"Oropharynx, nicht näher bezeichnet",C00-C14
+C11.1,Hinterwand des Nasopharynx,C00-C14
+C11.2,Seitenwand des Nasopharynx,C00-C14
+C12,Bösartige Neubildung des Recessus piriformis,C00-C14
+C13.0,Regio postcricoidea,C00-C14
+C13.2,Hinterwand des Hypopharynx,C00-C14
+C13.8,"Hypopharynx, mehrere Teilbereiche überlappend",C00-C14
+C13.9,"Hypopharynx, nicht näher bezeichnet",C00-C14
+C14.8,"Lippe, Mundhöhle und Pharynx, mehrere Teilbereiche überlappend",C00-C14
+C15,Bösartige Neubildung des Ösophagus,C15-C26
+C15.0,Zervikaler Ösophagus,C15-C26
+C15.1,Thorakaler Ösophagus,C15-C26
+C15.2,Abdominaler Ösophagus,C15-C26
+C15.3,"Ösophagus, oberes Drittel",C15-C26
+C15.4,"Ösophagus, mittleres Drittel",C15-C26
+C15.5,"Ösophagus, unteres Drittel",C15-C26
+C15.8,"Ösophagus, mehrere Teilbereiche überlappend",C15-C26
+C15.9,"Ösophagus, nicht näher bezeichnet",C15-C26
+C16,Bösartige Neubildung des Magens,C15-C26
+C16.0,Kardia,C15-C26
+C16.1,Fundus ventriculi,C15-C26
+C16.2,Corpus ventriculi,C15-C26
+C16.3,Antrum pyloricum,C15-C26
+C16.8,"Magen, mehrere Teilbereiche überlappend",C15-C26
+C16.9,"Magen, nicht näher bezeichnet",C15-C26
+C17,Bösartige Neubildung des Dünndarmes,C15-C26
+C17.0,Duodenum,C15-C26
+C17.8,"Dünndarm, mehrere Teilbereiche überlappend",C15-C26
+C17.9,"Dünndarm, nicht näher bezeichnet",C15-C26
+C18,Bösartige Neubildung des Kolons,C15-C26
+C18.0,Zäkum,C15-C26
+C18.1,Appendix vermiformis,C15-C26
+C18.2,Colon ascendens,C15-C26
+C18.3,Flexura coli dextra [hepatica],C15-C26
+C18.4,Colon transversum,C15-C26
+C18.5,Flexura coli sinistra [lienalis],C15-C26
+C18.6,Colon descendens,C15-C26
+C18.7,Colon sigmoideum,C15-C26
+C18.9,"Kolon, nicht näher bezeichnet",C15-C26
+C19,"Bösartige Neubildung am Rektosigmoid, Übergang",C15-C26
+C20,Bösartige Neubildung des Rektums,C15-C26
+C21.0,"Anus, nicht näher bezeichnet",C15-C26
+C21.1,Analkanal,C15-C26
+C21.8,"Rektum, Anus und Analkanal, mehrere Teilbereiche überlappend",C15-C26
+C22,Bösartige Neubildung der Leber und der intrahepatischen Gallengänge,C15-C26
+C22.0,Leberzellkarzinom,C15-C26
+C22.1,Intrahepatisches Gallengangskarzinom,C15-C26
+C22.3,Angiosarkom der Leber,C15-C26
+C22.4,Sonstige Sarkome der Leber,C15-C26
+C22.7,Sonstige näher bezeichnete Karzinome der Leber,C15-C26
+C22.9,"Leber, nicht näher bezeichnet",C15-C26
+C23,Bösartige Neubildung der Gallenblase,C15-C26
+C24.0,Extrahepatischer Gallengang,C15-C26
+C24.1,Ampulla hepatopancreatica [Ampulla Vateri],C15-C26
+C24.8,"Gallenwege, mehrere Teilbereiche überlappend",C15-C26
+C24.9,"Gallenwege, nicht näher bezeichnet",C15-C26
+C25,Bösartige Neubildung des Pankreas,C15-C26
+C25.0,Pankreaskopf,C15-C26
+C25.1,Pankreaskörper,C15-C26
+C25.2,Pankreasschwanz,C15-C26
+C25.3,Ductus pancreaticus,C15-C26
+C25.8,"Pankreas, mehrere Teilbereiche überlappend",C15-C26
+C25.9,"Pankreas, nicht näher bezeichnet",C15-C26
+C26.9,Ungenau bezeichnete Lokalisationen des Verdauungssystems,C15-C26
+C30.0,Nasenhöhle,C30-C39
+C30.1,Mittelohr,C30-C39
+C31.0,Sinus maxillaris [Kieferhöhle],C30-C39
+C32.0,Glottis,C30-C39
+C32.1,Supraglottis,C30-C39
+C32.9,"Larynx, nicht näher bezeichnet",C30-C39
+C34,Bösartige Neubildung der Bronchien und der Lunge,C30-C39
+C34.0,Hauptbronchus,C30-C39
+C34.8,"Bronchus und Lunge, mehrere Teilbereiche überlappend",C30-C39
+C34.9,"Bronchus oder Lunge, nicht näher bezeichnet",C30-C39
+C38.0,Herz,C30-C39
+C38.4,Pleura,C30-C39
+C40,Bösartige Neubildung des Knochens und des Gelenkknorpels der Extremitäten,C40-C41
+C40.0,Skapula und lange Knochen der oberen Extremität,C40-C41
+C40.2,Lange Knochen der unteren Extremität,C40-C41
+C41,Bösartige Neubildung des Knochens und des Gelenkknorpels sonstiger und nicht näher bezeichneter Lokalisationen,C40-C41
+C41.0,Knochen des Hirn- und Gesichtsschädels,C40-C41
+C41.2,Wirbelsäule,C40-C41
+C41.3,"Rippen, Sternum und Klavikula",C40-C41
+C41.4,Beckenknochen,C40-C41
+C41.9,"Knochen und Gelenkknorpel, nicht näher bezeichnet",C40-C41
+C43.3,Bösartiges Melanom sonstiger und nicht näher bezeichneter Teile des Gesichtes,C43-C44
+C43.4,Bösartiges Melanom der behaarten Kopfhaut und des Halses,C43-C44
+C43.5,Bösartiges Melanom des Rumpfes,C43-C44
+C43.6,"Bösartiges Melanom der oberen Extremität, einschließlich Schulter",C43-C44
+C43.7,"Bösartiges Melanom der unteren Extremität, einschließlich Hüfte",C43-C44
+C43.9,"Bösartiges Melanom der Haut, nicht näher bezeichnet",C43-C44
+C44.2,Haut des Ohres und des äußeren Gehörganges,C43-C44
+C44.3,Haut sonstiger und nicht näher bezeichneter Teile des Gesichtes,C43-C44
+C44.4,Behaarte Kopfhaut und Haut des Halses,C43-C44
+C44.5,Haut des Rumpfes,C43-C44
+C44.7,"Haut der unteren Extremität, einschließlich Hüfte",C43-C44
+C44.9,"Bösartige Neubildung der Haut, nicht näher bezeichnet",C43-C44
+C45.0,Mesotheliom der Pleura,C45-C49
+C47.9,"Periphere Nerven und autonomes Nervensystem, nicht näher bezeichnet",C45-C49
+C48.0,Retroperitoneum,C45-C49
+C48.2,"Peritoneum, nicht näher bezeichnet",C45-C49
+C49.0,"Bindegewebe und andere Weichteilgewebe des Kopfes, des Gesichtes und des Halses",C45-C49
+C49.1,"Bindegewebe und andere Weichteilgewebe der oberen Extremität, einschließlich Schulter",C45-C49
+C49.2,"Bindegewebe und andere Weichteilgewebe der unteren Extremität, einschließlich Hüfte",C45-C49
+C49.3,Bindegewebe und andere Weichteilgewebe des Thorax,C45-C49
+C49.4,Bindegewebe und andere Weichteilgewebe des Abdomens,C45-C49
+C49.5,Bindegewebe und andere Weichteilgewebe des Beckens,C45-C49
+C49.6,"Bindegewebe und andere Weichteilgewebe des Rumpfes, nicht näher bezeichnet",C45-C49
+C49.9,"Bindegewebe und andere Weichteilgewebe, nicht näher bezeichnet",C45-C49
+C50,Bösartige Neubildung der Brustdrüse [Mamma],C50-C50
+C50.0,Brustwarze und Warzenhof,C50-C50
+C50.1,Zentraler Drüsenkörper der Brustdrüse,C50-C50
+C50.2,Oberer innerer Quadrant der Brustdrüse,C50-C50
+C50.4,Oberer äußerer Quadrant der Brustdrüse,C50-C50
+C50.5,Unterer äußerer Quadrant der Brustdrüse,C50-C50
+C50.8,"Brustdrüse, mehrere Teilbereiche überlappend",C50-C50
+C50.9,"Brustdrüse, nicht näher bezeichnet",C50-C50
+C51.0,Labium majus,C51-C58
+C51.1,Labium minus,C51-C58
+C51.8,"Vulva, mehrere Teilbereiche überlappend",C51-C58
+C51.9,"Vulva, nicht näher bezeichnet",C51-C58
+C53.0,Endozervix,C51-C58
+C53.1,Ektozervix,C51-C58
+C53.8,"Cervix uteri, mehrere Teilbereiche überlappend",C51-C58
+C53.9,"Cervix uteri, nicht näher bezeichnet",C51-C58
+C54.0,Isthmus uteri,C51-C58
+C54.1,Endometrium,C51-C58
+C54.8,"Corpus uteri, mehrere Teilbereiche überlappend",C51-C58
+C54.9,"Corpus uteri, nicht näher bezeichnet",C51-C58
+C55,"Bösartige Neubildung des Uterus, Teil nicht näher bezeichnet",C51-C58
+C56,Bösartige Neubildung des Ovars,C51-C58
+C60.1,Glans penis,C60-C63
+C60.9,"Penis, nicht näher bezeichnet",C60-C63
+C61,Bösartige Neubildung der Prostata,C60-C63
+C62,Bösartige Neubildung des Hodens,C60-C63
+C62.9,"Hoden, nicht näher bezeichnet",C60-C63
+C63.2,Skrotum,C60-C63
+C63.9,"Männliches Genitalorgan, nicht näher bezeichnet",C60-C63
+C64,"Bösartige Neubildung der Niere, ausgenommen Nierenbecken",C64-C68
+C65,Bösartige Neubildung des Nierenbeckens,C64-C68
+C66,Bösartige Neubildung des Ureters,C64-C68
+C67,Bösartige Neubildung der Harnblase,C64-C68
+C67.0,Trigonum vesicae,C64-C68
+C67.1,Apex vesicae,C64-C68
+C67.2,Laterale Harnblasenwand,C64-C68
+C67.3,Vordere Harnblasenwand,C64-C68
+C67.4,Hintere Harnblasenwand,C64-C68
+C67.6,Ostium ureteris,C64-C68
+C67.8,"Harnblase, mehrere Teilbereiche überlappend",C64-C68
+C67.9,"Harnblase, nicht näher bezeichnet",C64-C68
+C68,Bösartige Neubildung sonstiger und nicht näher bezeichneter Harnorgane,C64-C68
+C68.8,"Harnorgane, mehrere Teilbereiche überlappend",C64-C68
+C68.9,"Harnorgan, nicht näher bezeichnet",C64-C68
+C70.0,Hirnhäute,C69-C72
+C71,Bösartige Neubildung des Gehirns,C69-C72
+C71.0,"Zerebrum, ausgenommen Hirnlappen und Ventrikel",C69-C72
+C71.1,Frontallappen,C69-C72
+C71.2,Temporallappen,C69-C72
+C71.3,Parietallappen,C69-C72
+C71.7,Hirnstamm,C69-C72
+C71.8,"Gehirn, mehrere Teilbereiche überlappend",C69-C72
+C71.9,"Gehirn, nicht näher bezeichnet",C69-C72
+C72.0,Rückenmark,C69-C72
+C72.9,"Zentralnervensystem, nicht näher bezeichnet",C69-C72
+C73,Bösartige Neubildung der Schilddrüse,C73-C75
+C75.8,"Beteiligung mehrerer endokriner Drüsen, nicht näher bezeichnet",C73-C75
+C75.9,"Endokrine Drüse, nicht näher bezeichnet",C73-C75
+C76.0,"Kopf, Gesicht und Hals",C76-C80
+C76.2,Abdomen,C76-C80
+C77.0,"Lymphknoten des Kopfes, des Gesichtes und des Halses",C76-C80
+C77.1,Intrathorakale Lymphknoten,C76-C80
+C77.2,Intraabdominale Lymphknoten,C76-C80
+C77.3,Axilläre Lymphknoten und Lymphknoten der oberen Extremität,C76-C80
+C77.4,Inguinale Lymphknoten und Lymphknoten der unteren Extremität,C76-C80
+C77.5,Intrapelvine Lymphknoten,C76-C80
+C77.8,Lymphknoten mehrerer Regionen,C76-C80
+C77.9,"Lymphknoten, nicht näher bezeichnet",C76-C80
+C78.0,Sekundäre bösartige Neubildung der Lunge,C76-C80
+C78.1,Sekundäre bösartige Neubildung des Mediastinums,C76-C80
+C78.2,Sekundäre bösartige Neubildung der Pleura,C76-C80
+C78.6,Sekundäre bösartige Neubildung des Retroperitoneums und des Peritoneums,C76-C80
+C78.7,Sekundäre bösartige Neubildung der Leber und der intrahepatischen Gallengänge,C76-C80
+C79.0,Sekundäre bösartige Neubildung der Niere und des Nierenbeckens,C76-C80
+C79.2,Sekundäre bösartige Neubildung der Haut,C76-C80
+C79.3,Sekundäre bösartige Neubildung des Gehirns und der Hirnhäute,C76-C80
+C79.4,Sekundäre bösartige Neubildung sonstiger und nicht näher bezeichneter Teile des Nervensystems,C76-C80
+C79.5,Sekundäre bösartige Neubildung des Knochens und des Knochenmarkes,C76-C80
+C79.9,Sekundäre bösartige Neubildung nicht näher bezeichneter Lokalisation,C76-C80
+C80,Bösartige Neubildung ohne Angabe der Lokalisation,C76-C80
+C80.0,"Bösartige Neubildung, primäre Lokalisation unbekannt, so bezeichnet",C76-C80
+C80.9,"Bösartige Neubildung, nicht näher bezeichnet",C76-C80
+C82,Follikuläres Lymphom,C81-C96
+C82.1,Follikuläres Lymphom Grad II,C81-C96
+C82.7,Sonstige Typen des follikulären Lymphoms,C81-C96
+C82.9,"Follikuläres Lymphom, nicht näher bezeichnet",C81-C96
+C83,Nicht follikuläres Lymphom,C81-C96
+C83.8,Sonstige nicht follikuläre Lymphome,C81-C96
+C90.0,Multiples Myelom,C81-C96
+C91.0,Akute lymphatische Leukämie [ALL],C81-C96
+C92.0,Akute myeloblastische Leukämie [AML],C81-C96
+C97,Bösartige Neubildungen als Primärtumoren an mehreren Lokalisationen,C97-C97
+D03.7,"Melanoma in situ der unteren Extremität, einschließlich Hüfte",D00-D09
+D06.9,"Cervix uteri, nicht näher bezeichnet",D00-D09
+D09.0,Harnblase,D00-D09
+D10.3,Sonstige und nicht näher bezeichnete Teile des Mundes,D10-D36
+D12.2,Colon ascendens,D10-D36
+D12.5,Colon sigmoideum,D10-D36
+D12.8,Rektum,D10-D36
+D13.6,Pankreas,D10-D36
+D16.2,Lange Knochen der unteren Extremität,D10-D36
+D16.3,Kurze Knochen der unteren Extremität,D10-D36
+D16.9,"Knochen und Gelenkknorpel, nicht näher bezeichnet",D10-D36
+D17.7,Gutartige Neubildung des Fettgewebes an sonstigen Lokalisationen,D10-D36
+D20.1,Peritoneum,D10-D36
+D21.0,"Bindegewebe und andere Weichteilgewebe des Kopfes, des Gesichtes und des Halses",D10-D36
+D21.2,"Bindegewebe und andere Weichteilgewebe der unteren Extremität, einschließlich Hüfte",D10-D36
+D23.6,"Haut der oberen Extremität, einschließlich Schulter",D10-D36
+D23.7,"Haut der unteren Extremität, einschließlich Hüfte",D10-D36
+D23.9,"Haut, nicht näher bezeichnet",D10-D36
+D25.1,Intramurales Leiomyom des Uterus,D10-D36
+D27,Gutartige Neubildung des Ovars,D10-D36
+D32.0,Hirnhäute,D10-D36
+D32.1,Rückenmarkhäute,D10-D36
+D32.9,"Meningen, nicht näher bezeichnet",D10-D36
+D33.3,Hirnnerven,D10-D36
+D37.0,"Lippe, Mundhöhle und Pharynx",D37-D48
+D37.2,Dünndarm,D37-D48
+D37.3,Appendix vermiformis,D37-D48
+D37.4,Kolon,D37-D48
+D37.6,"Leber, Gallenblase und Gallengänge",D37-D48
+D38.1,"Trachea, Bronchus und Lunge",D37-D48
+D38.2,Pleura,D37-D48
+D39,Neubildung unsicheren oder unbekannten Verhaltens der weiblichen Genitalorgane,D37-D48
+D39.1,Ovar,D37-D48
+D39.7,Sonstige weibliche Genitalorgane,D37-D48
+D40.0,Prostata,D37-D48
+D41.0,Niere,D37-D48
+D41.4,Harnblase,D37-D48
+D43.1,"Gehirn, infratentoriell",D37-D48
+D43.2,"Gehirn, nicht näher bezeichnet",D37-D48
+D45,Polycythaemia vera,D37-D48
+D46.0,"Refraktäre Anämie ohne Ringsideroblasten, so bezeichnet",D37-D48
+D46.7,Sonstige myelodysplastische Syndrome,D37-D48
+D46.9,"Myelodysplastisches Syndrom, nicht näher bezeichnet",D37-D48
+D47.2,Monoklonale Gammopathie unbestimmter Signifikanz [MGUS],D37-D48
+D47.3,Essentielle (hämorrhagische) Thrombozythämie,D37-D48
+D47.4,Osteomyelofibrose,D37-D48
+D47.7,"Sonstige näher bezeichnete Neubildungen unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes",D37-D48
+D47.9,"Neubildung unsicheren oder unbekannten Verhaltens des lymphatischen, blutbildenden und verwandten Gewebes, nicht näher bezeichnet",D37-D48
+D48.0,Knochen und Gelenkknorpel,D37-D48
+D48.1,Bindegewebe und andere Weichteilgewebe,D37-D48
+D48.5,Haut,D37-D48
+D48.6,Brustdrüse [Mamma],D37-D48
+D48.9,"Neubildung unsicheren oder unbekannten Verhaltens, nicht näher bezeichnet",D37-D48
+D59.1,Sonstige autoimmunhämolytische Anämien,D55-D59
+D61.9,"Aplastische Anämie, nicht näher bezeichnet",D60-D64
+D62,Akute Blutungsanämie,D60-D64
+D63.8,"Anämie bei sonstigen chronischen, anderenorts klassifizierten Krankheiten",D60-D64
+D64.8,Sonstige näher bezeichnete Anämien,D60-D64
+D64.9,"Anämie, nicht näher bezeichnet",D60-D64
+D68.5,Primäre Thrombophilie,D65-D69
+D68.6,Sonstige Thrombophilien,D65-D69
+D69.1,Qualitative Thrombozytendefekte,D65-D69
+D69.3,Idiopathische thrombozytopenische Purpura,D65-D69
+D72.8,Sonstige näher bezeichnete Krankheiten der Leukozyten,D70-D77
+D76,Sonstige näher bezeichnete Krankheiten mit Beteiligung des lymphoretikulären Gewebes und des retikulohistiozytären Systems,D70-D77
+D86.9,"Sarkoidose, nicht näher bezeichnet",D80-D89
+E03.1,Angeborene Hypothyreose ohne Struma,E00-E07
+E03.8,Sonstige näher bezeichnete Hypothyreose,E00-E07
+E03.9,"Hypothyreose, nicht näher bezeichnet",E00-E07
+E05.2,Hyperthyreose mit toxischer mehrknotiger Struma,E00-E07
+E10,"Diabetes mellitus, Typ 1",E10-E14
+E11,"Diabetes mellitus, Typ 2",E10-E14
+E15,"Hypoglykämisches Koma, nichtdiabetisch",E15-E16
+E29,Testikuläre Dysfunktion,E20-E35
+E32,Krankheiten des Thymus,E20-E35
+E34.8,Sonstige näher bezeichnete endokrine Störungen,E20-E35
+E41,Alimentärer Marasmus,E40-E46
+E65,Lokalisierte Adipositas,E65-E68
+E66,Adipositas,E65-E68
+E66.0,Adipositas durch übermäßige Kalorienzufuhr,E65-E68
+E75.5,Sonstige Störungen der Lipidspeicherung,E70-E90
+E75.6,"Störung der Lipidspeicherung, nicht näher bezeichnet",E70-E90
+E78,Störungen des Lipoproteinstoffwechsels und sonstige Lipidämien,E70-E90
+E78.2,Gemischte Hyperlipidämie,E70-E90
+E78.5,"Hyperlipidämie, nicht näher bezeichnet",E70-E90
+E78.9,"Störung des Lipoproteinstoffwechsels, nicht näher bezeichnet",E70-E90
+E79.0,Hyperurikämie ohne Zeichen von entzündlicher Arthritis oder tophischer Gicht,E70-E90
+E85,Amyloidose,E70-E90
+E85.9,"Amyloidose, nicht näher bezeichnet",E70-E90
+E86,Volumenmangel,E70-E90
+E87.1,Hypoosmolalität und Hyponatriämie,E70-E90
+E87.2,Azidose,E70-E90
+E87.6,Hypokaliämie,E70-E90
+E87.7,Flüssigkeitsüberschuss,E70-E90
+E88,Sonstige Stoffwechselstörungen,E70-E90
+E88.1,"Lipodystrophie, anderenorts nicht klassifiziert",E70-E90
+E88.2,"Lipomatose, anderenorts nicht klassifiziert",E70-E90
+E89.0,Hypothyreose nach medizinischen Maßnahmen,E70-E90
+F01,Vaskuläre Demenz,F00-F09
+F01.0,Vaskuläre Demenz mit akutem Beginn,F00-F09
+F01.2,Subkortikale vaskuläre Demenz,F00-F09
+F01.3,Gemischte kortikale und subkortikale vaskuläre Demenz,F00-F09
+F01.8,Sonstige vaskuläre Demenz,F00-F09
+F01.9,"Vaskuläre Demenz, nicht näher bezeichnet",F00-F09
+F02.2,Demenz bei Chorea Huntington ,F00-F09
+F02.8,Demenz bei anderenorts klassifizierten Krankheitsbildern,F00-F09
+F03,Nicht näher bezeichnete Demenz,F00-F09
+F05.0,Delir ohne Demenz,F00-F09
+F05.1,Delir bei Demenz,F00-F09
+F05.9,"Delir, nicht näher bezeichnet",F00-F09
+F06.0,Organische Halluzinose,F00-F09
+F06.3,Organische affektive Störungen,F00-F09
+F06.7,Leichte kognitive Störung,F00-F09
+F06.8,Sonstige näher bezeichnete organische psychische Störungen aufgrund einer Schädigung oder Funktionsstörung des Gehirns oder einer körperlichen Krankheit,F00-F09
+F07.2,Organisches Psychosyndrom nach Schädelhirntrauma,F00-F09
+F20.0,Paranoide Schizophrenie,F20-F29
+F20.5,Schizophrenes Residuum,F20-F29
+F20.8,Sonstige Schizophrenie,F20-F29
+F20.9,"Schizophrenie, nicht näher bezeichnet",F20-F29
+F29,Nicht näher bezeichnete nichtorganische Psychose,F20-F29
+F32.2,Schwere depressive Episode ohne psychotische Symptome,F30-F39
+F33.2,"Rezidivierende depressive Störung, gegenwärtig schwere Episode ohne psychotische Symptome",F30-F39
+F38,Andere affektive Störungen,F30-F39
+F41.9,"Angststörung, nicht näher bezeichnet",F40-F48
+F43.2,Anpassungsstörungen,F40-F48
+F44.4,Dissoziative Bewegungsstörungen,F40-F48
+F45,Somatoforme Störungen,F40-F48
+F45.1,Undifferenzierte Somatisierungsstörung,F40-F48
+F45.4,Anhaltende somatoforme Schmerzstörung,F40-F48
+F83,Kombinierte umschriebene Entwicklungsstörungen,F80-F89
+F84,Tief greifende Entwicklungsstörungen,F80-F89
+F84.0,Frühkindlicher Autismus,F80-F89
+F84.4,Überaktive Störung mit Intelligenzminderung und Bewegungsstereotypien,F80-F89
+F84.8,Sonstige tief greifende Entwicklungsstörungen,F80-F89
+F84.9,"Tief greifende Entwicklungsstörung, nicht näher bezeichnet",F80-F89
+F89,Nicht näher bezeichnete Entwicklungsstörung,F80-F89
+F90.9,"Hyperkinetische Störung, nicht näher bezeichnet",F90-F98
+F98.0,Nichtorganische Enuresis,F90-F98
+F98.1,Nichtorganische Enkopresis,F90-F98
+G04.2,"Bakterielle Meningoenzephalitis und Meningomyelitis, anderenorts nicht klassifiziert",G00-G09
+G04.9,"Enzephalitis, Myelitis und Enzephalomyelitis, nicht näher bezeichnet",G00-G09
+G06.0,Intrakranieller Abszess und intrakranielles Granulom,G00-G09
+G06.1,Intraspinaler Abszess und intraspinales Granulom,G00-G09
+G10,Chorea Huntington,G10-G14
+G11.4,Hereditäre spastische Paraplegie,G10-G14
+G12.1,Sonstige vererbte spinale Muskelatrophie,G10-G14
+G12.9,"Spinale Muskelatrophie, nicht näher bezeichnet",G10-G14
+G24.1,Idiopathische familiäre Dystonie,G20-G26
+G25.0,Essentieller Tremor,G20-G26
+G25.9,"Extrapyramidale Krankheit oder Bewegungsstörung, nicht näher bezeichnet",G20-G26
+G31.0,Umschriebene Hirnatrophie,G30-G32
+G31.9,"Degenerative Krankheit des Nervensystems, nicht näher bezeichnet",G30-G32
+G32.0,Subakute kombinierte Degeneration des Rückenmarks bei anderenorts klassifizierten Krankheiten,G30-G32
+G35,Multiple Sklerose [Encephalomyelitis disseminata],G35-G37
+G40,Epilepsie,G40-G47
+G40.1,Lokalisationsbezogene (fokale) (partielle) symptomatische Epilepsie und epileptische Syndrome mit einfachen fokalen Anfällen,G40-G47
+G40.2,Lokalisationsbezogene (fokale) (partielle) symptomatische Epilepsie und epileptische Syndrome mit komplexen fokalen Anfällen,G40-G47
+G40.3,Generalisierte idiopathische Epilepsie und epileptische Syndrome,G40-G47
+G40.4,Sonstige generalisierte Epilepsie und epileptische Syndrome,G40-G47
+G40.8,Sonstige Epilepsien,G40-G47
+G40.9,"Epilepsie, nicht näher bezeichnet",G40-G47
+G41.8,Sonstiger Status epilepticus,G40-G47
+G46.3,Hirnstammsyndrom ,G40-G47
+G47.3,Schlafapnoe,G40-G47
+G51.0,Fazialisparese,G50-G59
+G51.1,Entzündung des Ganglion geniculi,G50-G59
+G51.9,"Krankheit des N. facialis, nicht näher bezeichnet",G50-G59
+G54,Krankheiten von Nervenwurzeln und Nervenplexus,G50-G59
+G54.6,Phantomschmerz,G50-G59
+G54.9,"Krankheit von Nervenwurzeln und Nervenplexus, nicht näher bezeichnet",G50-G59
+G55.1,Kompression von Nervenwurzeln und Nervenplexus bei Bandscheibenschäden ,G50-G59
+G55.2,Kompression von Nervenwurzeln und Nervenplexus bei Spondylose ,G50-G59
+G55.3,Kompression von Nervenwurzeln und Nervenplexus bei sonstigen Krankheiten der Wirbelsäule und des Rückens ,G50-G59
+G57.0,Läsion des N. ischiadicus,G50-G59
+G57.2,Läsion des N. femoralis,G50-G59
+G57.3,Läsion des N. fibularis (peronaeus) communis,G50-G59
+G57.6,Läsion des N. plantaris,G50-G59
+G59.0,Diabetische Mononeuropathie ,G50-G59
+G60,Hereditäre und idiopathische Neuropathie,G60-G64
+G60.0,Hereditäre sensomotorische Neuropathie,G60-G64
+G60.8,Sonstige hereditäre und idiopathische Neuropathien,G60-G64
+G61.9,"Polyneuritis, nicht näher bezeichnet",G60-G64
+G62,Sonstige Polyneuropathien,G60-G64
+G62.2,Polyneuropathie durch sonstige toxische Agenzien,G60-G64
+G62.8,Sonstige näher bezeichnete Polyneuropathien,G60-G64
+G62.9,"Polyneuropathie, nicht näher bezeichnet",G60-G64
+G63.0,Polyneuropathie bei anderenorts klassifizierten infektiösen und parasitären Krankheiten,G60-G64
+G63.2,Diabetische Polyneuropathie ,G60-G64
+G63.8,Polyneuropathie bei sonstigen anderenorts klassifizierten Krankheiten,G60-G64
+G70.0,Myasthenia gravis,G70-G73
+G70.9,"Neuromuskuläre Krankheit, nicht näher bezeichnet",G70-G73
+G71.0,Muskeldystrophie,G70-G73
+G71.2,Angeborene Myopathien,G70-G73
+G72.9,"Myopathie, nicht näher bezeichnet",G70-G73
+G73.7,Myopathie bei sonstigen anderenorts klassifizierten Krankheiten,G70-G73
+G80,Infantile Zerebralparese,G80-G83
+G80.0,Spastische tetraplegische Zerebralparese,G80-G83
+G80.1,Spastische diplegische Zerebralparese,G80-G83
+G80.2,Infantile hemiplegische Zerebralparese,G80-G83
+G80.4,Ataktische Zerebralparese,G80-G83
+G80.9,"Infantile Zerebralparese, nicht näher bezeichnet",G80-G83
+G81,Hemiparese und Hemiplegie,G80-G83
+G81.0,Schlaffe Hemiparese und Hemiplegie,G80-G83
+G81.1,Spastische Hemiparese und Hemiplegie,G80-G83
+G81.9,"Hemiparese und Hemiplegie, nicht näher bezeichnet",G80-G83
+G82,"Paraparese und Paraplegie, Tetraparese und Tetraplegie",G80-G83
+G82.1,Spastische Paraparese und Paraplegie,G80-G83
+G82.4,Spastische Tetraparese und Tetraplegie,G80-G83
+G82.5,"Tetraparese und Tetraplegie, nicht näher bezeichnet",G80-G83
+G83.1,Monoparese und Monoplegie einer unteren Extremität,G80-G83
+G83.2,Monoparese und Monoplegie einer oberen Extremität,G80-G83
+G83.3,"Monoparese und Monoplegie, nicht näher bezeichnet",G80-G83
+G83.9,"Lähmungssyndrom, nicht näher bezeichnet",G80-G83
+G91.0,Hydrocephalus communicans,G90-G99
+G91.1,Hydrocephalus occlusus,G90-G99
+G91.9,"Hydrozephalus, nicht näher bezeichnet",G90-G99
+G93.1,"Anoxische Hirnschädigung, anderenorts nicht klassifiziert",G90-G99
+G93.3,Chronisches Müdigkeitssyndrom,G90-G99
+G93.4,"Enzephalopathie, nicht näher bezeichnet",G90-G99
+G93.9,"Krankheit des Gehirns, nicht näher bezeichnet",G90-G99
+G95.0,Syringomyelie und Syringobulbie,G90-G99
+G96.8,Sonstige näher bezeichnete Krankheiten des Zentralnervensystems,G90-G99
+G98,"Sonstige Krankheiten des Nervensystems, anderenorts nicht klassifiziert",G90-G99
+G99.2,Myelopathie bei anderenorts klassifizierten Krankheiten,G90-G99
+H26.9,"Katarakt, nicht näher bezeichnet",H25-H28
+H40.1,Primäres Weitwinkelglaukom,H40-H42
+H49.0,Lähmung des N. oculomotorius [III. Hirnnerv],H49-H52
+H49.2,Lähmung des N. abducens [VI. Hirnnerv],H49-H52
+H53.4,Gesichtsfelddefekte,H53-H54
+H53.9,"Sehstörung, nicht näher bezeichnet",H53-H54
+H54.0,"Blindheit, binokular",H53-H54
+H54.4,"Blindheit, monokular",H53-H54
+H54.9,Nicht näher bezeichnete Sehbeeinträchtigung (binokular),H53-H54
+H60.0,Abszess des äußeren Ohres,H60-H62
+H60.3,Sonstige infektiöse Otitis externa,H60-H62
+H60.5,"Akute Otitis externa, nichtinfektiös",H60-H62
+H60.9,"Otitis externa, nicht näher bezeichnet",H60-H62
+H61.2,Zeruminalpfropf,H60-H62
+H61.3,Erworbene Stenose des äußeren Gehörganges,H60-H62
+H66.1,Chronische mesotympanale eitrige Otitis media,H65-H75
+H66.3,Sonstige chronische eitrige Otitis media,H65-H75
+H71,Cholesteatom des Mittelohres,H65-H75
+H72.0,Zentrale Perforation des Trommelfells,H65-H75
+H72.9,"Trommelfellperforation, nicht näher bezeichnet",H65-H75
+H73.0,Akute Myringitis,H65-H75
+H74.0,Tympanosklerose,H65-H75
+H74.1,Otitis media adhaesiva,H65-H75
+H74.2,Kontinuitätsunterbrechung oder Dislokation der Gehörknöchelchenkette,H65-H75
+H80.0,"Otosklerose mit Beteiligung der Fenestra vestibuli, nichtobliterierend",H80-H83
+H80.9,"Otosklerose, nicht näher bezeichnet",H80-H83
+H81,Störungen der Vestibularfunktion,H80-H83
+H81.1,Benigner paroxysmaler Schwindel,H80-H83
+H81.2,Neuropathia vestibularis,H80-H83
+H81.4,Schwindel zentralen Ursprungs,H80-H83
+H81.9,"Störung der Vestibularfunktion, nicht näher bezeichnet",H80-H83
+H83.3,Lärmschädigungen des Innenohres,H80-H83
+H83.9,"Krankheit des Innenohres, nicht näher bezeichnet",H80-H83
+H90.0,Beidseitiger Hörverlust durch Schallleitungsstörung,H90-H95
+H90.1,Einseitiger Hörverlust durch Schallleitungsstörung bei nicht eingeschränktem Hörvermögen der anderen Seite,H90-H95
+H90.2,"Hörverlust durch Schallleitungsstörung, nicht näher bezeichnet",H90-H95
+H90.3,Beidseitiger Hörverlust durch Schallempfindungsstörung,H90-H95
+H90.4,Einseitiger Hörverlust durch Schallempfindungsstörung bei nicht eingeschränktem Hörvermögen der anderen Seite,H90-H95
+H90.5,"Hörverlust durch Schallempfindungsstörung, nicht näher bezeichnet",H90-H95
+H91.0,Ototoxischer Hörverlust,H90-H95
+H91.1,Presbyakusis,H90-H95
+H91.2,Idiopathischer Hörsturz,H90-H95
+H91.3,"Taubstummheit, anderenorts nicht klassifiziert",H90-H95
+H91.8,Sonstiger näher bezeichneter Hörverlust,H90-H95
+H91.9,"Hörverlust, nicht näher bezeichnet",H90-H95
+H93.0,Degenerative und vaskuläre Krankheiten des Ohres,H90-H95
+H93.1,Tinnitus aurium,H90-H95
+H93.2,Sonstige abnorme Hörempfindungen,H90-H95
+H93.3,Krankheiten des N. vestibulocochlearis [VIII. Hirnnerv],H90-H95
+I06.0,Rheumatische Aortenklappenstenose,I05-I09
+I07.1,Trikuspidalklappeninsuffizienz,I05-I09
+I10,Essentielle (primäre) Hypertonie,I10-I15
+I11.0,Hypertensive Herzkrankheit mit (kongestiver) Herzinsuffizienz,I10-I15
+I11.9,Hypertensive Herzkrankheit ohne (kongestive) Herzinsuffizienz,I10-I15
+I12.0,Hypertensive Nierenkrankheit mit Niereninsuffizienz,I10-I15
+I20.0,Instabile Angina pectoris,I20-I25
+I21.0,Akuter transmuraler Myokardinfarkt der Vorderwand,I20-I25
+I21.1,Akuter transmuraler Myokardinfarkt der Hinterwand,I20-I25
+I21.4,Akuter subendokardialer Myokardinfarkt,I20-I25
+I21.9,"Akuter Myokardinfarkt, nicht näher bezeichnet",I20-I25
+I25,Chronische ischämische Herzkrankheit,I20-I25
+I25.1,Atherosklerotische Herzkrankheit,I20-I25
+I25.2,Alter Myokardinfarkt,I20-I25
+I25.5,Ischämische Kardiomyopathie,I20-I25
+I25.8,Sonstige Formen der chronischen ischämischen Herzkrankheit,I20-I25
+I25.9,"Chronische ischämische Herzkrankheit, nicht näher bezeichnet",I20-I25
+I26,Lungenembolie,I26-I28
+I26.0,Lungenembolie mit Angabe eines akuten Cor pulmonale,I26-I28
+I26.9,Lungenembolie ohne Angabe eines akuten Cor pulmonale,I26-I28
+I34.0,Mitralklappeninsuffizienz,I30-I52
+I34.1,Mitralklappenprolaps,I30-I52
+I35.0,Aortenklappenstenose,I30-I52
+I35.2,Aortenklappenstenose mit Insuffizienz,I30-I52
+I36.1,Nichtrheumatische Trikuspidalklappeninsuffizienz,I30-I52
+I37.1,Pulmonalklappeninsuffizienz,I30-I52
+I42.0,Dilatative Kardiomyopathie,I30-I52
+I43.1,Kardiomyopathie bei Stoffwechselkrankheiten,I30-I52
+I44.2,Atrioventrikulärer Block 3. Grades,I30-I52
+I44.7,"Linksschenkelblock, nicht näher bezeichnet",I30-I52
+I46.0,Herzstillstand mit erfolgreicher Wiederbelebung,I30-I52
+I47.1,Supraventrikuläre Tachykardie,I30-I52
+I48.0,"Vorhofflimmern, paroxysmal",I30-I52
+I48.1,"Vorhofflimmern, persistierend",I30-I52
+I48.2,"Vorhofflimmern, chronisch",I30-I52
+I48.3,"Vorhofflattern, typisch",I30-I52
+I48.4,"Vorhofflattern, atypisch",I30-I52
+I48.9,"Vorhofflimmern und Vorhofflattern, nicht näher bezeichnet",I30-I52
+I49.9,"Kardiale Arrhythmie, nicht näher bezeichnet",I30-I52
+I50,Herzinsuffizienz,I30-I52
+I50.0,Kongestive Herzinsuffizienz,I30-I52
+I50.1,Linksherzinsuffizienz,I30-I52
+I50.9,"Herzinsuffizienz, nicht näher bezeichnet",I30-I52
+I51,Komplikationen einer Herzkrankheit und ungenau beschriebene Herzkrankheit,I30-I52
+I51.1,"Ruptur der Chordae tendineae, anderenorts nicht klassifiziert",I30-I52
+I51.8,Sonstige ungenau bezeichnete Herzkrankheiten,I30-I52
+I51.9,"Herzkrankheit, nicht näher bezeichnet",I30-I52
+I60.4,"Subarachnoidalblutung, von der A. basilaris ausgehend",I60-I69
+I60.9,"Subarachnoidalblutung, nicht näher bezeichnet",I60-I69
+I61,Intrazerebrale Blutung,I60-I69
+I61.0,"Intrazerebrale Blutung in die Großhirnhemisphäre, subkortikal",I60-I69
+I61.1,"Intrazerebrale Blutung in die Großhirnhemisphäre, kortikal",I60-I69
+I61.4,Intrazerebrale Blutung in das Kleinhirn,I60-I69
+I61.5,Intrazerebrale intraventrikuläre Blutung,I60-I69
+I61.8,Sonstige intrazerebrale Blutung,I60-I69
+I61.9,"Intrazerebrale Blutung, nicht näher bezeichnet",I60-I69
+I62.0,Nichttraumatische subdurale Blutung,I60-I69
+I63,Hirninfarkt,I60-I69
+I63.0,Hirninfarkt durch Thrombose präzerebraler Arterien,I60-I69
+I63.1,Hirninfarkt durch Embolie präzerebraler Arterien,I60-I69
+I63.2,Hirninfarkt durch nicht näher bezeichneten Verschluss oder Stenose präzerebraler Arterien,I60-I69
+I63.3,Hirninfarkt durch Thrombose zerebraler Arterien,I60-I69
+I63.4,Hirninfarkt durch Embolie zerebraler Arterien,I60-I69
+I63.5,Hirninfarkt durch nicht näher bezeichneten Verschluss oder Stenose zerebraler Arterien,I60-I69
+I63.8,Sonstiger Hirninfarkt,I60-I69
+I63.9,"Hirninfarkt, nicht näher bezeichnet",I60-I69
+I64,"Schlaganfall, nicht als Blutung oder Infarkt bezeichnet",I60-I69
+I65,Verschluss und Stenose präzerebraler Arterien ohne resultierenden Hirninfarkt,I60-I69
+I65.2,Verschluss und Stenose der A. carotis,I60-I69
+I65.3,Verschluss und Stenose mehrerer und beidseitiger präzerebraler Arterien,I60-I69
+I66.9,Verschluss und Stenose einer nicht näher bezeichneten zerebralen Arterie,I60-I69
+I67.2,Zerebrale Atherosklerose,I60-I69
+I67.9,"Zerebrovaskuläre Krankheit, nicht näher bezeichnet",I60-I69
+I69,Folgen einer zerebrovaskulären Krankheit,I60-I69
+I69.0,Folgen einer Subarachnoidalblutung,I60-I69
+I69.1,Folgen einer intrazerebralen Blutung,I60-I69
+I69.2,Folgen einer sonstigen nichttraumatischen intrakraniellen Blutung,I60-I69
+I69.3,Folgen eines Hirninfarktes,I60-I69
+I69.4,"Folgen eines Schlaganfalls, nicht als Blutung oder Infarkt bezeichnet",I60-I69
+I70.0,Atherosklerose der Aorta,I70-I79
+I70.1,Atherosklerose der Nierenarterie,I70-I79
+I70.2,Atherosklerose der Extremitätenarterien,I70-I79
+I70.9,Generalisierte und nicht näher bezeichnete Atherosklerose,I70-I79
+I71.3,"Aneurysma der Aorta abdominalis, rupturiert",I70-I79
+I71.4,"Aneurysma der Aorta abdominalis, ohne Angabe einer Ruptur",I70-I79
+I71.6,"Aortenaneurysma, thorakoabdominal, ohne Angabe einer Ruptur",I70-I79
+I72.1,Aneurysma und Dissektion einer Arterie der oberen Extremität,I70-I79
+I72.3,Aneurysma und Dissektion der A. iliaca,I70-I79
+I72.4,Aneurysma und Dissektion einer Arterie der unteren Extremität,I70-I79
+I72.9,Aneurysma und Dissektion nicht näher bezeichneter Lokalisation,I70-I79
+I73,Sonstige periphere Gefäßkrankheiten,I70-I79
+I73.9,"Periphere Gefäßkrankheit, nicht näher bezeichnet",I70-I79
+I74,Arterielle Embolie und Thrombose,I70-I79
+I74.0,Embolie und Thrombose der Aorta abdominalis,I70-I79
+I74.3,Embolie und Thrombose der Arterien der unteren Extremitäten,I70-I79
+I74.4,"Embolie und Thrombose der Extremitätenarterien, nicht näher bezeichnet",I70-I79
+I74.8,Embolie und Thrombose sonstiger Arterien,I70-I79
+I74.9,Embolie und Thrombose nicht näher bezeichneter Arterie,I70-I79
+I77.0,"Arteriovenöse Fistel, erworben",I70-I79
+I77.2,Arterienruptur,I70-I79
+I77.6,"Arteriitis, nicht näher bezeichnet",I70-I79
+I79.2,Periphere Angiopathie bei anderenorts klassifizierten Krankheiten,I70-I79
+I80,"Thrombose, Phlebitis und Thrombophlebitis",I80-I89
+I80.0,"Thrombose, Phlebitis und Thrombophlebitis oberflächlicher Gefäße der unteren Extremitäten",I80-I89
+I80.1,"Thrombose, Phlebitis und Thrombophlebitis der V. femoralis",I80-I89
+I80.2,"Thrombose, Phlebitis und Thrombophlebitis sonstiger tiefer Gefäße der unteren Extremitäten",I80-I89
+I80.3,"Thrombose, Phlebitis und Thrombophlebitis der unteren Extremitäten, nicht näher bezeichnet",I80-I89
+I80.8,"Thrombose, Phlebitis und Thrombophlebitis sonstiger Lokalisationen",I80-I89
+I80.9,"Thrombose, Phlebitis und Thrombophlebitis nicht näher bezeichneter Lokalisation",I80-I89
+I82,Sonstige venöse Embolie und Thrombose,I80-I89
+I82.2,Embolie und Thrombose der V. cava,I80-I89
+I82.9,Embolie und Thrombose nicht näher bezeichneter Vene,I80-I89
+I83,Varizen der unteren Extremitäten,I80-I89
+I83.0,Varizen der unteren Extremitäten mit Ulzeration,I80-I89
+I83.1,Varizen der unteren Extremitäten mit Entzündung,I80-I89
+I83.2,Varizen der unteren Extremitäten mit Ulzeration und Entzündung,I80-I89
+I83.9,Varizen der unteren Extremitäten ohne Ulzeration oder Entzündung,I80-I89
+I86,Varizen sonstiger Lokalisationen,I80-I89
+I86.8,Varizen sonstiger näher bezeichneter Lokalisationen,I80-I89
+I87,Sonstige Venenkrankheiten,I80-I89
+I87.0,Postthrombotisches Syndrom,I80-I89
+I87.1,Venenkompression,I80-I89
+I87.2,Venöse Insuffizienz (chronisch) (peripher),I80-I89
+I87.8,Sonstige näher bezeichnete Venenkrankheiten,I80-I89
+I87.9,"Venenkrankheit, nicht näher bezeichnet",I80-I89
+I89,Sonstige nichtinfektiöse Krankheiten der Lymphgefäße und Lymphknoten,I80-I89
+I89.0,"Lymphödem, anderenorts nicht klassifiziert",I80-I89
+I89.1,Lymphangitis,I80-I89
+I89.8,Sonstige näher bezeichnete nichtinfektiöse Krankheiten der Lymphgefäße und Lymphknoten,I80-I89
+I89.9,"Nichtinfektiöse Krankheit der Lymphgefäße und Lymphknoten, nicht näher bezeichnet",I80-I89
+I95.1,Orthostatische Hypotonie,I95-I99
+I97,"Kreislaufkomplikationen nach medizinischen Maßnahmen, anderenorts nicht klassifiziert",I95-I99
+I97.2,Lymphödem nach Mastektomie,I95-I99
+I97.8,"Sonstige Kreislaufkomplikationen nach medizinischen Maßnahmen, anderenorts nicht klassifiziert",I95-I99
+I98.0,Kardiovaskuläre Syphilis,I95-I99
+J06.9,"Akute Infektion der oberen Atemwege, nicht näher bezeichnet",J00-J06
+J12.8,Pneumonie durch sonstige Viren,J09-J18
+J12.9,"Viruspneumonie, nicht näher bezeichnet",J09-J18
+J15.8,Sonstige bakterielle Pneumonie,J09-J18
+J15.9,"Bakterielle Pneumonie, nicht näher bezeichnet",J09-J18
+J16.0,Pneumonie durch Chlamydien,J09-J18
+J18,"Pneumonie, Erreger nicht näher bezeichnet",J09-J18
+J18.0,"Bronchopneumonie, nicht näher bezeichnet",J09-J18
+J18.1,"Lobärpneumonie, nicht näher bezeichnet",J09-J18
+J18.8,"Sonstige Pneumonie, Erreger nicht näher bezeichnet",J09-J18
+J18.9,"Pneumonie, nicht näher bezeichnet",J09-J18
+J38,"Krankheiten der Stimmlippen und des Kehlkopfes, anderenorts nicht klassifiziert",J30-J39
+J40,"Bronchitis, nicht als akut oder chronisch bezeichnet",J40-J47
+J42,Nicht näher bezeichnete chronische Bronchitis,J40-J47
+J43.1,Panlobuläres Emphysem,J40-J47
+J43.9,"Emphysem, nicht näher bezeichnet",J40-J47
+J44,Sonstige chronische obstruktive Lungenkrankheit,J40-J47
+J44.0,Chronische obstruktive Lungenkrankheit mit akuter Infektion der unteren Atemwege,J40-J47
+J44.1,"Chronische obstruktive Lungenkrankheit mit akuter Exazerbation, nicht näher bezeichnet",J40-J47
+J44.8,Sonstige näher bezeichnete chronische obstruktive Lungenkrankheit,J40-J47
+J44.9,"Chronische obstruktive Lungenkrankheit, nicht näher bezeichnet",J40-J47
+J84.1,Sonstige interstitielle Lungenkrankheiten mit Fibrose,J80-J84
+J85.1,Abszess der Lunge mit Pneumonie,J85-J86
+J85.2,Abszess der Lunge ohne Pneumonie,J85-J86
+J86.0,Pyothorax mit Fistel,J85-J86
+J86.9,Pyothorax ohne Fistel,J85-J86
+J90,"Pleuraerguss, anderenorts nicht klassifiziert",J90-J94
+J91,Pleuraerguss bei anderenorts klassifizierten Krankheiten,J90-J94
+J93.8,Sonstiger Pneumothorax,J90-J94
+J94.2,Hämatothorax,J90-J94
+J96,"Respiratorische Insuffizienz, anderenorts nicht klassifiziert",J95-J99
+J96.0,"Akute respiratorische Insuffizienz, anderenorts nicht klassifiziert",J95-J99
+J96.1,"Chronische respiratorische Insuffizienz, anderenorts nicht klassifiziert",J95-J99
+J96.9,"Respiratorische Insuffizienz, nicht näher bezeichnet",J95-J99
+J98.1,Lungenkollaps,J95-J99
+J99.1,Krankheiten der Atemwege bei sonstigen diffusen Bindegewebskrankheiten,J95-J99
+K21.0,Gastroösophageale Refluxkrankheit mit Ösophagitis,K20-K31
+K29.1,Sonstige akute Gastritis,K20-K31
+K29.6,Sonstige Gastritis,K20-K31
+K29.7,"Gastritis, nicht näher bezeichnet",K20-K31
+K44,Hernia diaphragmatica,K40-K46
+K44.9,Hernia diaphragmatica ohne Einklemmung und ohne Gangrän,K40-K46
+K51,Colitis ulcerosa,K50-K52
+K51.0,Ulzeröse (chronische) Pankolitis,K50-K52
+K55,Gefäßkrankheiten des Darmes,K55-K64
+K56.0,Paralytischer Ileus,K55-K64
+K56.4,Sonstige Obturation des Darmes,K55-K64
+K56.5,Intestinale Adhäsionen [Briden] mit Obstruktion,K55-K64
+K56.7,"Ileus, nicht näher bezeichnet",K55-K64
+K57.3,Divertikulose des Dickdarmes ohne Perforation oder Abszess,K55-K64
+K58,Reizdarmsyndrom,K55-K64
+K59.2,"Neurogene Darmstörung, anderenorts nicht klassifiziert",K55-K64
+K59.9,"Funktionelle Darmstörung, nicht näher bezeichnet",K55-K64
+K60.2,"Analfissur, nicht näher bezeichnet",K55-K64
+K62,Sonstige Krankheiten des Anus und des Rektums,K55-K64
+K62.3,Rektumprolaps,K55-K64
+K62.8,Sonstige näher bezeichnete Krankheiten des Anus und des Rektums,K55-K64
+K63.1,Perforation des Darmes (nichttraumatisch),K55-K64
+K63.5,Polyp des Kolons,K55-K64
+K65.9,"Peritonitis, nicht näher bezeichnet",K65-K67
+K66.0,Peritoneale Adhäsionen,K65-K67
+K70.3,Alkoholische Leberzirrhose,K70-K77
+K70.9,"Alkoholische Leberkrankheit, nicht näher bezeichnet",K70-K77
+K72.0,Akutes und subakutes Leberversagen,K70-K77
+K72.1,Chronisches Leberversagen,K70-K77
+K74.0,Leberfibrose,K70-K77
+K74.6,Sonstige und nicht näher bezeichnete Zirrhose der Leber,K70-K77
+K75.0,Leberabszess,K70-K77
+K75.4,Autoimmune Hepatitis,K70-K77
+K76.7,Hepatorenales Syndrom,K70-K77
+K81.0,Akute Cholezystitis,K80-K87
+K81.9,"Cholezystitis, nicht näher bezeichnet",K80-K87
+K86.1,Sonstige chronische Pankreatitis,K80-K87
+K90.0,Zöliakie,K90-K93
+K90.8,Sonstige intestinale Malabsorption,K90-K93
+K92,Sonstige Krankheiten des Verdauungssystems,K90-K93
+K92.2,"Gastrointestinale Blutung, nicht näher bezeichnet",K90-K93
+L02.4,"Hautabszess, Furunkel und Karbunkel an Extremitäten",L00-L08
+L03,Phlegmone,L00-L08
+L03.9,"Phlegmone, nicht näher bezeichnet",L00-L08
+L05.0,Pilonidalzyste mit Abszess,L00-L08
+L12.0,Bullöses Pemphigoid,L10-L14
+L30.3,Ekzematoide Dermatitis,L20-L30
+L30.9,"Dermatitis, nicht näher bezeichnet",L20-L30
+L40,Psoriasis,L40-L45
+L40.9,"Psoriasis, nicht näher bezeichnet",L40-L45
+L43,Lichen ruber planus,L40-L45
+L52,Erythema nodosum,L50-L54
+L60.0,Unguis incarnatus,L60-L75
+L60.2,Onychogryposis [Onychogryphosis],L60-L75
+L70.2,Acne varioliformis,L60-L75
+L85.1,Erworbene Keratosis palmoplantaris [Erworbenes Keratoma palmoplantare],L80-L99
+L85.9,"Epidermisverdickung, nicht näher bezeichnet",L80-L99
+L88,Pyoderma gangraenosum,L80-L99
+L93.0,Diskoider Lupus erythematodes,L80-L99
+L94.5,Poikilodermia atrophicans vascularis [Jacobi],L80-L99
+L97,"Ulcus cruris, anderenorts nicht klassifiziert",L80-L99
+L98.4,"Chronisches Ulkus der Haut, anderenorts nicht klassifiziert",L80-L99
+M00.9,"Eitrige Arthritis, nicht näher bezeichnet",M00-M03
+M05.9,"Seropositive chronische Polyarthritis, nicht näher bezeichnet",M05-M14
+M06.9,"Chronische Polyarthritis, nicht näher bezeichnet",M05-M14
+M09.0,Juvenile Arthritis bei Psoriasis,M05-M14
+M10.0,Idiopathische Gicht,M05-M14
+M12,Sonstige näher bezeichnete Arthropathien,M05-M14
+M13,Sonstige Arthritis,M05-M14
+M13.0,"Polyarthritis, nicht näher bezeichnet",M05-M14
+M13.1,"Monarthritis, anderenorts nicht klassifiziert",M05-M14
+M15,Polyarthrose,M15-M19
+M15.8,Sonstige Polyarthrose,M15-M19
+M15.9,"Polyarthrose, nicht näher bezeichnet",M15-M19
+M16,Koxarthrose [Arthrose des Hüftgelenkes],M15-M19
+M16.0,"Primäre Koxarthrose, beidseitig",M15-M19
+M16.1,Sonstige primäre Koxarthrose,M15-M19
+M16.2,"Koxarthrose als Folge einer Dysplasie, beidseitig",M15-M19
+M16.3,Sonstige dysplastische Koxarthrose,M15-M19
+M16.5,Sonstige posttraumatische Koxarthrose,M15-M19
+M16.6,"Sonstige sekundäre Koxarthrose, beidseitig",M15-M19
+M16.7,Sonstige sekundäre Koxarthrose,M15-M19
+M16.9,"Koxarthrose, nicht näher bezeichnet",M15-M19
+M17,Gonarthrose [Arthrose des Kniegelenkes],M15-M19
+M17.0,"Primäre Gonarthrose, beidseitig",M15-M19
+M17.1,Sonstige primäre Gonarthrose,M15-M19
+M17.3,Sonstige posttraumatische Gonarthrose,M15-M19
+M17.4,"Sonstige sekundäre Gonarthrose, beidseitig",M15-M19
+M17.5,Sonstige sekundäre Gonarthrose,M15-M19
+M17.9,"Gonarthrose, nicht näher bezeichnet",M15-M19
+M19,Sonstige Arthrose,M15-M19
+M19.0,Primäre Arthrose sonstiger Gelenke,M15-M19
+M19.9,"Arthrose, nicht näher bezeichnet",M15-M19
+M20,Erworbene Deformitäten der Finger und Zehen,M20-M25
+M20.1,Hallux valgus (erworben),M20-M25
+M20.2,Hallux rigidus,M20-M25
+M20.3,Sonstige Deformität der Großzehe (erworben),M20-M25
+M20.4,Sonstige Hammerzehe(n) (erworben),M20-M25
+M20.5,Sonstige Deformitäten der Zehe(n) (erworben),M20-M25
+M20.6,"Erworbene Deformität der Zehe(n), nicht näher bezeichnet",M20-M25
+M21,Sonstige erworbene Deformitäten der Extremitäten,M20-M25
+M21.0,"Valgusdeformität, anderenorts nicht klassifiziert",M20-M25
+M21.1,"Varusdeformität, anderenorts nicht klassifiziert",M20-M25
+M21.2,Flexionsdeformität,M20-M25
+M21.4,Plattfuß [Pes planus] (erworben),M20-M25
+M21.6,Sonstige erworbene Deformitäten des Knöchels und des Fußes,M20-M25
+M21.7,Unterschiedliche Extremitätenlänge (erworben),M20-M25
+M21.9,"Erworbene Deformität einer Extremität, nicht näher bezeichnet",M20-M25
+M22.0,Habituelle Luxation der Patella,M20-M25
+M22.2,Krankheiten im Patellofemoralbereich,M20-M25
+M22.4,Chondromalacia patellae,M20-M25
+M22.8,Sonstige Krankheiten der Patella,M20-M25
+M23,Binnenschädigung des Kniegelenkes [internal derangement],M20-M25
+M23.2,Meniskusschädigung durch alten Riss oder alte Verletzung,M20-M25
+M23.3,Sonstige Meniskusschädigungen,M20-M25
+M23.4,Freier Gelenkkörper im Kniegelenk,M20-M25
+M23.6,Sonstige Spontanruptur eines oder mehrerer Bänder des Kniegelenkes,M20-M25
+M23.8,Sonstige Binnenschädigungen des Kniegelenkes,M20-M25
+M23.9,"Binnenschädigung des Kniegelenkes, nicht näher bezeichnet",M20-M25
+M24.1,Sonstige Gelenkknorpelschädigungen,M20-M25
+M24.4,Habituelle Luxation und Subluxation eines Gelenkes,M20-M25
+M24.9,"Gelenkschädigung, nicht näher bezeichnet",M20-M25
+M25,"Sonstige Gelenkkrankheiten, anderenorts nicht klassifiziert",M20-M25
+M25.5,Gelenkschmerz,M20-M25
+M31.6,Sonstige Riesenzellarteriitis,M30-M36
+M32,Systemischer Lupus erythematodes,M30-M36
+M32.1,Systemischer Lupus erythematodes mit Beteiligung von Organen oder Organsystemen,M30-M36
+M33.2,Polymyositis,M30-M36
+M35.3,Polymyalgia rheumatica,M30-M36
+M41.4,Neuromyopathische Skoliose,M40-M43
+M42.0,Juvenile Osteochondrose der Wirbelsäule,M40-M43
+M42.1,Osteochondrose der Wirbelsäule beim Erwachsenen,M40-M43
+M42.9,"Osteochondrose der Wirbelsäule, nicht näher bezeichnet",M40-M43
+M43.1,Spondylolisthesis,M40-M43
+M43.9,"Deformität der Wirbelsäule und des Rückens, nicht näher bezeichnet",M40-M43
+M46,Sonstige entzündliche Spondylopathien,M45-M49
+M47,Spondylose,M45-M49
+M47.8,Sonstige Spondylose,M45-M49
+M47.9,"Spondylose, nicht näher bezeichnet",M45-M49
+M48,Sonstige Spondylopathien,M45-M49
+M48.0,Spinal(kanal)stenose,M45-M49
+M48.9,"Spondylopathie, nicht näher bezeichnet",M45-M49
+M50.1,Zervikaler Bandscheibenschaden mit Radikulopathie,M50-M54
+M51.1,Lumbale und sonstige Bandscheibenschäden mit Radikulopathie,M50-M54
+M51.2,Sonstige näher bezeichnete Bandscheibenverlagerung,M50-M54
+M51.3,Sonstige näher bezeichnete Bandscheibendegeneration,M50-M54
+M51.9,"Bandscheibenschaden, nicht näher bezeichnet",M50-M54
+M53.0,Zervikozephales Syndrom,M50-M54
+M53.2,Instabilität der Wirbelsäule,M50-M54
+M53.3,"Krankheiten der Sakrokokzygealregion, anderenorts nicht klassifiziert",M50-M54
+M53.9,"Krankheit der Wirbelsäule und des Rückens, nicht näher bezeichnet",M50-M54
+M54,Rückenschmerzen,M50-M54
+M54.1,Radikulopathie,M50-M54
+M54.2,Zervikalneuralgie,M50-M54
+M54.3,Ischialgie,M50-M54
+M54.4,Lumboischialgie,M50-M54
+M54.5,Kreuzschmerz,M50-M54
+M54.8,Sonstige Rückenschmerzen,M50-M54
+M54.9,"Rückenschmerzen, nicht näher bezeichnet",M50-M54
+M62,Sonstige Muskelkrankheiten,M60-M63
+M62.2,Ischämischer Muskelinfarkt (nichttraumatisch),M60-M63
+M62.3,Immobilitätssyndrom (paraplegisch),M60-M63
+M62.4,Muskelkontraktur,M60-M63
+M66.0,Ruptur einer Poplitealzyste,M65-M68
+M67.0,Achillessehnenverkürzung (erworben),M65-M68
+M67.4,Ganglion,M65-M68
+M70.4,Bursitis praepatellaris,M70-M79
+M70.5,Sonstige Bursitis im Bereich des Knies,M70-M79
+M70.6,Bursitis trochanterica,M70-M79
+M70.9,"Nicht näher bezeichnete Krankheit des Weichteilgewebes durch Beanspruchung, Überbeanspruchung und Druck",M70-M79
+M71.4,Bursitis calcarea,M70-M79
+M72,Fibromatosen,M70-M79
+M72.4,Pseudosarkomatöse Fibromatose,M70-M79
+M72.8,Sonstige Fibromatosen,M70-M79
+M72.9,"Fibromatose, nicht näher bezeichnet",M70-M79
+M75.1,Läsionen der Rotatorenmanschette,M70-M79
+M76.5,Tendinitis der Patellarsehne,M70-M79
+M76.6,Tendinitis der Achillessehne,M70-M79
+M76.7,Tendinitis der Peronäussehne(n),M70-M79
+M76.9,"Enthesopathie der unteren Extremität, nicht näher bezeichnet",M70-M79
+M77,Sonstige Enthesopathien,M70-M79
+M77.2,Periarthritis im Bereich des Handgelenkes,M70-M79
+M77.3,Kalkaneussporn,M70-M79
+M77.4,Metatarsalgie,M70-M79
+M77.5,Sonstige Enthesopathie des Fußes,M70-M79
+M77.8,"Sonstige Enthesopathien, anderenorts nicht klassifiziert",M70-M79
+M77.9,"Enthesopathie, nicht näher bezeichnet",M70-M79
+M79.0,"Rheumatismus, nicht näher bezeichnet",M70-M79
+M79.6,Schmerzen in den Extremitäten,M70-M79
+M79.7,Fibromyalgie,M70-M79
+M80.0,Postmenopausale Osteoporose mit pathologischer Fraktur,M80-M85
+M80.4,Arzneimittelinduzierte Osteoporose mit pathologischer Fraktur,M80-M85
+M80.8,Sonstige Osteoporose mit pathologischer Fraktur,M80-M85
+M80.9,Nicht näher bezeichnete Osteoporose mit pathologischer Fraktur,M80-M85
+M81.0,Postmenopausale Osteoporose,M80-M85
+M81.8,Sonstige Osteoporose,M80-M85
+M81.9,"Osteoporose, nicht näher bezeichnet",M80-M85
+M87.0,Idiopathische aseptische Knochennekrose,M86-M90
+M89.5,Osteolyse,M86-M90
+M89.9,"Knochenkrankheit, nicht näher bezeichnet",M86-M90
+M91,Juvenile Osteochondrose der Hüfte und des Beckens,M91-M94
+M92.6,Juvenile Osteochondrose des Tarsus,M91-M94
+M92.7,Juvenile Osteochondrose des Metatarsus,M91-M94
+M92.8,Sonstige näher bezeichnete juvenile Osteochondrose,M91-M94
+M93,Sonstige Osteochondropathien,M91-M94
+M93.0,Epiphyseolysis capitis femoris (nichttraumatisch),M91-M94
+M93.2,Osteochondrosis dissecans,M91-M94
+M93.9,"Osteochondropathie, nicht näher bezeichnet",M91-M94
+M94.2,Chondromalazie,M91-M94
+M94.9,"Knorpelkrankheit, nicht näher bezeichnet",M91-M94
+M95.5,Erworbene Deformität des Beckens,M95-M99
+M96.0,Pseudarthrose nach Fusion oder Arthrodese,M95-M99
+M96.6,"Knochenfraktur nach Einsetzen eines orthopädischen Implantates, einer Gelenkprothese oder einer Knochenplatte",M95-M99
+M99.8,Sonstige biomechanische Funktionsstörungen,M95-M99
+N08.3,Glomeruläre Krankheiten bei Diabetes mellitus ,N00-N08
+N10,Akute tubulointerstitielle Nephritis,N10-N16
+N13.1,"Hydronephrose bei Ureterstriktur, anderenorts nicht klassifiziert",N10-N16
+N13.3,Sonstige und nicht näher bezeichnete Hydronephrose,N10-N16
+N13.5,Abknickung und Striktur des Ureters ohne Hydronephrose,N10-N16
+N13.6,Pyonephrose,N10-N16
+N13.9,"Obstruktive Uropathie und Refluxuropathie, nicht näher bezeichnet",N10-N16
+N17,Akutes Nierenversagen,N17-N19
+N17.8,Sonstiges akutes Nierenversagen,N17-N19
+N17.9,"Akutes Nierenversagen, nicht näher bezeichnet",N17-N19
+N18,Chronische Nierenkrankheit,N17-N19
+N18.1,"Chronische Nierenkrankheit, Stadium 1",N17-N19
+N18.2,"Chronische Nierenkrankheit, Stadium 2",N17-N19
+N18.3,"Chronische Nierenkrankheit, Stadium 3",N17-N19
+N18.4,"Chronische Nierenkrankheit, Stadium 4",N17-N19
+N18.5,"Chronische Nierenkrankheit, Stadium 5",N17-N19
+N18.9,"Chronische Nierenkrankheit, nicht näher bezeichnet",N17-N19
+N19,Nicht näher bezeichnete Niereninsuffizienz,N17-N19
+N20.0,Nierenstein,N20-N23
+N28.1,Zyste der Niere,N25-N29
+N28.8,Sonstige näher bezeichnete Krankheiten der Niere und des Ureters,N25-N29
+N28.9,"Krankheit der Niere und des Ureters, nicht näher bezeichnet",N25-N29
+N30.0,Akute Zystitis,N30-N39
+N31,"Neuromuskuläre Dysfunktion der Harnblase, anderenorts nicht klassifiziert",N30-N39
+N31.0,"Ungehemmte neurogene Blasenentleerung, anderenorts nicht klassifiziert",N30-N39
+N31.1,"Neurogene Reflexblase, anderenorts nicht klassifiziert",N30-N39
+N31.2,"Schlaffe neurogene Harnblase, anderenorts nicht klassifiziert",N30-N39
+N31.8,Sonstige neuromuskuläre Dysfunktion der Harnblase,N30-N39
+N31.9,"Neuromuskuläre Dysfunktion der Harnblase, nicht näher bezeichnet",N30-N39
+N32,Sonstige Krankheiten der Harnblase,N30-N39
+N32.0,Blasenhalsobstruktion,N30-N39
+N32.2,"Harnblasenfistel, anderenorts nicht klassifiziert",N30-N39
+N32.8,Sonstige näher bezeichnete Krankheiten der Harnblase,N30-N39
+N32.9,"Krankheit der Harnblase, nicht näher bezeichnet",N30-N39
+N35.8,Sonstige Harnröhrenstriktur,N30-N39
+N35.9,"Harnröhrenstriktur, nicht näher bezeichnet",N30-N39
+N39,Sonstige Krankheiten des Harnsystems,N30-N39
+N39.0,"Harnwegsinfektion, Lokalisation nicht näher bezeichnet",N30-N39
+N39.1,"Persistierende Proteinurie, nicht näher bezeichnet",N30-N39
+N39.2,"Orthostatische Proteinurie, nicht näher bezeichnet",N30-N39
+N39.3,Stressinkontinenz,N30-N39
+N39.4,Sonstige näher bezeichnete Harninkontinenz,N30-N39
+N39.9,"Krankheit des Harnsystems, nicht näher bezeichnet",N30-N39
+N40,Prostatahyperplasie,N40-N51
+N41.0,Akute Prostatitis,N40-N51
+N41.9,"Entzündliche Krankheit der Prostata, nicht näher bezeichnet",N40-N51
+N42.8,Sonstige näher bezeichnete Krankheiten der Prostata,N40-N51
+N42.9,"Krankheit der Prostata, nicht näher bezeichnet",N40-N51
+N50.9,"Krankheit der männlichen Genitalorgane, nicht näher bezeichnet",N40-N51
+N51.0,Krankheiten der Prostata bei anderenorts klassifizierten Krankheiten,N40-N51
+N60.0,Solitärzyste der Mamma,N60-N64
+N81,Genitalprolaps bei der Frau,N80-N98
+N81.0,Urethrozele bei der Frau,N80-N98
+N81.1,Zystozele,N80-N98
+N81.3,Totalprolaps des Uterus und der Vagina,N80-N98
+N81.4,"Uterovaginalprolaps, nicht näher bezeichnet",N80-N98
+N81.6,Rektozele,N80-N98
+N81.8,Sonstiger Genitalprolaps bei der Frau,N80-N98
+N84,Polyp des weiblichen Genitaltraktes,N80-N98
+N99.8,Sonstige Krankheiten des Urogenitalsystems nach medizinischen Maßnahmen,N99-N99
+N99.9,"Krankheit des Urogenitalsystems nach medizinischen Maßnahmen, nicht näher bezeichnet",N99-N99
+O12,Gestationsödeme und Gestationsproteinurie [schwangerschaftsinduziert] ohne Hypertonie,O10-O16
+O12.0,Schwangerschaftsödeme,O10-O16
+O22,Venenkrankheiten und Hämorrhoiden als Komplikationen in der Schwangerschaft,O20-O29
+O22.0,Varizen der unteren Extremitäten in der Schwangerschaft,O20-O29
+O22.2,Oberflächliche Thrombophlebitis in der Schwangerschaft,O20-O29
+O22.3,Tiefe Venenthrombose in der Schwangerschaft,O20-O29
+O22.9,"Venenkrankheit als Komplikation in der Schwangerschaft, nicht näher bezeichnet",O20-O29
+O33.5,Betreuung der Mutter bei Missverhältnis durch ungewöhnlich großen Fetus,O30-O48
+O66.8,Sonstiges näher bezeichnetes Geburtshindernis,O60-O75
+O87,Venenkrankheiten und Hämorrhoiden als Komplikationen im Wochenbett,O85-O92
+Q05,Spina bifida,Q00-Q07
+Q05.2,Lumbale Spina bifida mit Hydrozephalus,Q00-Q07
+Q05.6,Thorakale Spina bifida ohne Hydrozephalus,Q00-Q07
+Q27.3,Arteriovenöse Fehlbildung der peripheren Gefäße,Q20-Q28
+Q39,Angeborene Fehlbildungen des Ösophagus,Q38-Q45
+Q63.1,"Gelappte Niere, verschmolzene Niere und Hufeisenniere",Q60-Q64
+Q65.0,"Angeborene Luxation des Hüftgelenkes, einseitig",Q65-Q79
+Q65.6,Instabiles Hüftgelenk (angeboren),Q65-Q79
+Q65.8,Sonstige angeborene Deformitäten der Hüfte,Q65-Q79
+Q66,Angeborene Deformitäten der Füße,Q65-Q79
+Q66.0,Pes equinovarus congenitus,Q65-Q79
+Q66.2,Pes adductus (congenitus),Q65-Q79
+Q66.3,Sonstige angeborene Varusdeformitäten der Füße,Q65-Q79
+Q66.4,Pes calcaneovalgus congenitus,Q65-Q79
+Q66.5,Pes planus congenitus,Q65-Q79
+Q66.6,Sonstige angeborene Valgusdeformitäten der Füße,Q65-Q79
+Q66.7,Pes cavus,Q65-Q79
+Q66.8,Sonstige angeborene Deformitäten der Füße,Q65-Q79
+Q66.9,"Angeborene Deformität der Füße, nicht näher bezeichnet",Q65-Q79
+Q70.9,"Syndaktylie, nicht näher bezeichnet",Q65-Q79
+Q72.3,Angeborenes Fehlen des Fußes oder einer oder mehrerer Zehen,Q65-Q79
+Q72.4,Longitudinaler Reduktionsdefekt des Femurs,Q65-Q79
+Q72.8,Sonstige Reduktionsdefekte der unteren Extremität(en),Q65-Q79
+Q72.9,"Reduktionsdefekt der unteren Extremität, nicht näher bezeichnet",Q65-Q79
+Q73.8,Sonstige Reduktionsdefekte nicht näher bezeichneter Extremität(en),Q65-Q79
+Q74.1,Angeborene Fehlbildung des Knies,Q65-Q79
+Q74.2,Sonstige angeborene Fehlbildungen der unteren Extremität(en) und des Beckengürtels,Q65-Q79
+Q74.3,Arthrogryposis multiplex congenita,Q65-Q79
+Q77.7,Dysplasia spondyloepiphysaria,Q65-Q79
+Q78.0,Osteogenesis imperfecta,Q65-Q79
+Q78.6,Angeborene multiple Exostosen,Q65-Q79
+Q82,Sonstige angeborene Fehlbildungen der Haut,Q80-Q89
+Q82.0,Hereditäres Lymphödem,Q80-Q89
+Q86.8,Sonstige angeborene Fehlbildungssyndrome durch bekannte äußere Ursachen,Q80-Q89
+Q87,Sonstige näher bezeichnete angeborene Fehlbildungssyndrome mit Beteiligung mehrerer Systeme,Q80-Q89
+Q87.2,Angeborene Fehlbildungssyndrome mit vorwiegender Beteiligung der Extremitäten,Q80-Q89
+Q89.9,"Angeborene Fehlbildung, nicht näher bezeichnet",Q80-Q89
+Q90.2,"Trisomie 21, Translokation",Q90-Q99
+Q92.3,"Partielle Trisomie, Minorform",Q90-Q99
+Q92.8,Sonstige näher bezeichnete Trisomien und partielle Trisomien der Autosomen,Q90-Q99
+Q92.9,"Trisomie und partielle Trisomie der Autosomen, nicht näher bezeichnet",Q90-Q99
+Q93.8,Sonstige Deletionen der Autosomen,Q90-Q99
+Q99.9,"Chromosomenanomalie, nicht näher bezeichnet",Q90-Q99
+R04.2,Hämoptoe,R00-R09
+R06.0,Dyspnoe,R00-R09
+R06.6,Singultus,R00-R09
+R07.4,"Brustschmerzen, nicht näher bezeichnet",R00-R09
+R09.0,Asphyxie,R00-R09
+R10.0,Akutes Abdomen,R10-R19
+R10.1,Schmerzen im Bereich des Oberbauches,R10-R19
+R10.2,Schmerzen im Becken und am Damm,R10-R19
+R10.4,Sonstige und nicht näher bezeichnete Bauchschmerzen,R10-R19
+R13,Dysphagie,R10-R19
+R15,Stuhlinkontinenz,R10-R19
+R18,Aszites,R10-R19
+R19.0,"Schwellung, Raumforderung und Knoten im Abdomen und Becken",R10-R19
+R20.1,Hypästhesie der Haut,R20-R23
+R20.2,Parästhesie der Haut,R20-R23
+R20.8,Sonstige und nicht näher bezeichnete Sensibilitätsstörungen der Haut,R20-R23
+R21,Hautausschlag und sonstige unspezifische Hauteruptionen,R20-R23
+R22,"Lokalisierte Schwellung, Raumforderung und Knoten der Haut und der Unterhaut",R20-R23
+R22.4,"Lokalisierte Schwellung, Raumforderung und Knoten der Haut und der Unterhaut an den unteren Extremitäten",R20-R23
+R23,Sonstige Hautveränderungen,R20-R23
+R23.8,Sonstige und nicht näher bezeichnete Hautveränderungen,R20-R23
+R25.1,"Tremor, nicht näher bezeichnet",R25-R29
+R26,Störungen des Ganges und der Mobilität,R25-R29
+R26.0,Ataktischer Gang,R25-R29
+R26.1,Paretischer Gang,R25-R29
+R26.2,"Gehbeschwerden, anderenorts nicht klassifiziert",R25-R29
+R26.3,Immobilität,R25-R29
+R26.8,Sonstige und nicht näher bezeichnete Störungen des Ganges und der Mobilität,R25-R29
+R27.0,"Ataxie, nicht näher bezeichnet",R25-R29
+R29.2,Abnorme Reflexe,R25-R29
+R29.3,Abnorme Körperhaltung,R25-R29
+R29.4,Schnappende Hüfte,R25-R29
+R29.6,"Sturzneigung, anderenorts nicht klassifiziert",R25-R29
+R29.8,"Sonstige und nicht näher bezeichnete Symptome, die das Nervensystem und das Muskel-Skelett-System betreffen",R25-R29
+R30.0,Dysurie,R30-R39
+R30.9,"Schmerzen beim Wasserlassen, nicht näher bezeichnet",R30-R39
+R31,Nicht näher bezeichnete Hämaturie,R30-R39
+R32,Nicht näher bezeichnete Harninkontinenz,R30-R39
+R33,Harnverhaltung,R30-R39
+R34,Anurie und Oligurie,R30-R39
+R36,Ausfluss aus der Harnröhre,R30-R39
+R39,"Sonstige Symptome, die das Harnsystem betreffen",R30-R39
+R39.1,Sonstige Miktionsstörungen,R30-R39
+R39.2,Extrarenale Urämie,R30-R39
+R40.0,Somnolenz,R40-R46
+R41.8,"Sonstige und nicht näher bezeichnete Symptome, die das Erkennungsvermögen und das Bewusstsein betreffen",R40-R46
+R42,Schwindel und Taumel,R40-R46
+R46.4,Verlangsamung und herabgesetztes Reaktionsvermögen,R40-R46
+R47.0,Dysphasie und Aphasie,R47-R49
+R47.1,Dysarthrie und Anarthrie,R47-R49
+R48.2,Apraxie,R47-R49
+R52.0,Akuter Schmerz,R50-R69
+R52.1,Chronischer unbeeinflussbarer Schmerz,R50-R69
+R52.2,Sonstiger chronischer Schmerz,R50-R69
+R52.9,"Schmerz, nicht näher bezeichnet",R50-R69
+R53,Unwohlsein und Ermüdung,R50-R69
+R54,Senilität,R50-R69
+R55,Synkope und Kollaps,R50-R69
+R57.9,"Schock, nicht näher bezeichnet",R50-R69
+R59.1,"Lymphknotenvergrößerung, generalisiert",R50-R69
+R60,"Ödem, anderenorts nicht klassifiziert",R50-R69
+R60.0,Umschriebenes Ödem,R50-R69
+R60.1,Generalisiertes Ödem,R50-R69
+R60.9,"Ödem, nicht näher bezeichnet",R50-R69
+R62,Ausbleiben der erwarteten normalen physiologischen Entwicklung,R50-R69
+R62.8,Sonstiges Ausbleiben der erwarteten physiologischen Entwicklung,R50-R69
+R63.3,Ernährungsprobleme und unsachgemäße Ernährung,R50-R69
+R63.4,Abnorme Gewichtsabnahme,R50-R69
+R63.5,Abnorme Gewichtszunahme,R50-R69
+R64,Kachexie,R50-R69
+R68.8,Sonstige näher bezeichnete Allgemeinsymptome,R50-R69
+R69,Unbekannte und nicht näher bezeichnete Krankheitsursachen,R50-R69
+R73.9,"Hyperglykämie, nicht näher bezeichnet",R70-R79
+R82.9,Sonstige und nicht näher bezeichnete abnorme Urinbefunde,R80-R82
+R90.0,Intrakranielle Raumforderung,R90-R94
+R91,Abnorme Befunde bei der bildgebenden Diagnostik der Lunge,R90-R94
+R93,Abnorme Befunde bei der bildgebenden Diagnostik sonstiger Körperstrukturen,R90-R94
+R93.6,Abnorme Befunde bei der bildgebenden Diagnostik der Extremitäten,R90-R94
+S02.1,Schädelbasisfraktur,S00-S09
+S06.0,Gehirnerschütterung,S00-S09
+S06.5,Traumatische subdurale Blutung,S00-S09
+S06.6,Traumatische subarachnoidale Blutung,S00-S09
+S06.8,Sonstige intrakranielle Verletzungen,S00-S09
+S06.9,"Intrakranielle Verletzung, nicht näher bezeichnet",S00-S09
+S12.1,Fraktur des 2. Halswirbels,S10-S19
+S12.2,Fraktur eines sonstigen näher bezeichneten Halswirbels,S10-S19
+S12.9,"Fraktur im Bereich des Halses, Teil nicht näher bezeichnet",S10-S19
+S13.4,Verstauchung und Zerrung der Halswirbelsäule,S10-S19
+S16,Verletzung von Muskeln und Sehnen in Halshöhe,S10-S19
+S20.2,Prellung des Thorax,S20-S29
+S22.0,Fraktur eines Brustwirbels,S20-S29
+S22.1,Multiple Frakturen der Brustwirbelsäule,S20-S29
+S22.4,Rippenserienfraktur,S20-S29
+S29.9,Nicht näher bezeichnete Verletzung des Thorax,S20-S29
+S30.0,Prellung der Lumbosakralgegend und des Beckens,S30-S39
+S30.1,Prellung der Bauchdecke,S30-S39
+S32.0,Fraktur eines Lendenwirbels,S30-S39
+S32.1,Fraktur des Os sacrum,S30-S39
+S32.3,Fraktur des Os ilium,S30-S39
+S32.4,Fraktur des Acetabulums,S30-S39
+S32.5,Fraktur des Os pubis,S30-S39
+S32.7,Multiple Frakturen mit Beteiligung der Lendenwirbelsäule und des Beckens,S30-S39
+S32.8,Fraktur sonstiger und nicht näher bezeichneter Teile der Lendenwirbelsäule und des Beckens,S30-S39
+S33.4,Traumatische Symphysensprengung,S30-S39
+S34.1,Sonstige Verletzung des lumbalen Rückenmarkes,S30-S39
+S35.2,Verletzung des Truncus coeliacus oder der A. mesenterica,S30-S39
+S37.2,Verletzung der Harnblase,S30-S39
+S42,Fraktur im Bereich der Schulter und des Oberarmes,S40-S49
+S42.1,Fraktur der Skapula,S40-S49
+S42.2,Fraktur des proximalen Endes des Humerus,S40-S49
+S42.3,Fraktur des Humerusschaftes,S40-S49
+S43.1,Luxation des Akromioklavikulargelenkes,S40-S49
+S46.0,Verletzung der Muskeln und der Sehnen der Rotatorenmanschette,S40-S49
+S49.9,Nicht näher bezeichnete Verletzung der Schulter und des Oberarmes,S40-S49
+S52.3,Fraktur des Radiusschaftes,S50-S59
+S52.6,"Distale Fraktur der Ulna und des Radius, kombiniert",S50-S59
+S52.8,Fraktur sonstiger Teile des Unterarmes,S50-S59
+S62.3,Fraktur eines sonstigen Mittelhandknochens,S60-S69
+S65.8,Verletzung sonstiger Blutgefäße in Höhe des Handgelenkes und der Hand,S60-S69
+S70.0,Prellung der Hüfte,S70-S79
+S70.1,Prellung des Oberschenkels,S70-S79
+S71.1,Offene Wunde des Oberschenkels,S70-S79
+S72,Fraktur des Femurs,S70-S79
+S72.0,Schenkelhalsfraktur,S70-S79
+S72.1,Pertrochantäre Fraktur,S70-S79
+S72.2,Subtrochantäre Fraktur,S70-S79
+S72.3,Fraktur des Femurschaftes,S70-S79
+S72.4,Distale Fraktur des Femurs,S70-S79
+S72.7,Multiple Frakturen des Femurs,S70-S79
+S72.8,Frakturen sonstiger Teile des Femurs,S70-S79
+S72.9,"Fraktur des Femurs, Teil nicht näher bezeichnet",S70-S79
+S74.0,Verletzung des N. ischiadicus in Höhe der Hüfte und des Oberschenkels,S70-S79
+S76.1,Verletzung des Muskels und der Sehne des M. quadriceps femoris,S70-S79
+S76.3,Verletzung von Muskeln und Sehnen der posterioren Muskelgruppe in Höhe des Oberschenkels,S70-S79
+S76.4,Verletzung sonstiger und nicht näher bezeichneter Muskeln und Sehnen in Höhe des Oberschenkels,S70-S79
+S78.1,Traumatische Amputation zwischen Hüfte und Knie,S70-S79
+S78.9,"Traumatische Amputation an Hüfte und Oberschenkel, Höhe nicht näher bezeichnet",S70-S79
+S80,Oberflächliche Verletzung des Unterschenkels,S80-S89
+S80.0,Prellung des Knies,S80-S89
+S80.1,Prellung sonstiger und nicht näher bezeichneter Teile des Unterschenkels,S80-S89
+S81.0,Offene Wunde des Knies,S80-S89
+S81.8,Offene Wunde sonstiger Teile des Unterschenkels,S80-S89
+S81.9,"Offene Wunde des Unterschenkels, Teil nicht näher bezeichnet",S80-S89
+S82,"Fraktur des Unterschenkels, einschließlich des oberen Sprunggelenkes",S80-S89
+S82.0,Fraktur der Patella,S80-S89
+S82.1,Fraktur des proximalen Endes der Tibia,S80-S89
+S82.2,Fraktur des Tibiaschaftes,S80-S89
+S82.3,Distale Fraktur der Tibia,S80-S89
+S82.4,"Fraktur der Fibula, isoliert",S80-S89
+S82.5,Fraktur des Innenknöchels,S80-S89
+S82.6,Fraktur des Außenknöchels,S80-S89
+S82.7,Multiple Frakturen des Unterschenkels,S80-S89
+S82.8,Frakturen sonstiger Teile des Unterschenkels,S80-S89
+S82.9,"Fraktur des Unterschenkels, Teil nicht näher bezeichnet",S80-S89
+S83,"Luxation, Verstauchung und Zerrung des Kniegelenkes und von Bändern des Kniegelenkes",S80-S89
+S83.0,Luxation der Patella,S80-S89
+S83.2,"Meniskusriss, akut",S80-S89
+S83.4,Verstauchung und Zerrung des Kniegelenkes mit Beteiligung des (fibularen) (tibialen) Seitenbandes,S80-S89
+S83.5,Verstauchung und Zerrung des Kniegelenkes mit Beteiligung des (vorderen) (hinteren) Kreuzbandes,S80-S89
+S83.6,Verstauchung und Zerrung sonstiger und nicht näher bezeichneter Teile des Knies,S80-S89
+S83.7,Verletzung mehrerer Strukturen des Knies,S80-S89
+S86.0,Verletzung der Achillessehne,S80-S89
+S86.1,Verletzung sonstiger Muskeln und Sehnen der posterioren Muskelgruppe in Höhe des Unterschenkels,S80-S89
+S86.8,Verletzung sonstiger Muskeln und Sehnen in Höhe des Unterschenkels,S80-S89
+S86.9,Verletzung eines nicht näher bezeichneten Muskels oder einer nicht näher bezeichneten Sehne in Höhe des Unterschenkels,S80-S89
+S88.9,"Traumatische Amputation am Unterschenkel, Höhe nicht näher bezeichnet",S80-S89
+S89.9,Nicht näher bezeichnete Verletzung des Unterschenkels,S80-S89
+S90,Oberflächliche Verletzung der Knöchelregion und des Fußes,S90-S99
+S90.0,Prellung der Knöchelregion,S90-S99
+S90.1,Prellung einer oder mehrerer Zehen ohne Schädigung des Nagels,S90-S99
+S90.3,Prellung sonstiger und nicht näher bezeichneter Teile des Fußes,S90-S99
+S91.3,Offene Wunde sonstiger Teile des Fußes,S90-S99
+S92,Fraktur des Fußes [ausgenommen oberes Sprunggelenk],S90-S99
+S92.0,Fraktur des Kalkaneus,S90-S99
+S92.1,Fraktur des Talus,S90-S99
+S92.2,Fraktur eines oder mehrerer sonstiger Fußwurzelknochen,S90-S99
+S92.3,Fraktur der Mittelfußknochen,S90-S99
+S92.4,Fraktur der Großzehe,S90-S99
+S92.5,Fraktur einer sonstigen Zehe,S90-S99
+S92.9,"Fraktur des Fußes, nicht näher bezeichnet",S90-S99
+S93.0,Luxation des oberen Sprunggelenkes,S90-S99
+S93.2,Traumatische Ruptur von Bändern in Höhe des oberen Sprunggelenkes und des Fußes,S90-S99
+S93.3,Luxation sonstiger und nicht näher bezeichneter Teile des Fußes,S90-S99
+S93.4,Verstauchung und Zerrung des oberen Sprunggelenkes,S90-S99
+S93.6,Verstauchung und Zerrung sonstiger und nicht näher bezeichneter Teile des Fußes,S90-S99
+S96.1,Verletzung von Muskeln und Sehnen der langen Streckmuskeln der Zehen in Höhe des Knöchels und des Fußes,S90-S99
+S98.1,Traumatische Amputation einer einzelnen Zehe,S90-S99
+S99.9,Nicht näher bezeichnete Verletzung der Knöchelregion und des Fußes,S90-S99
+T00.9,"Multiple oberflächliche Verletzungen, nicht näher bezeichnet",T00-T07
+T02.1,Frakturen mit Beteiligung von Thorax und Lumbosakralgegend oder von Thorax und Becken,T00-T07
+T07,Nicht näher bezeichnete multiple Verletzungen,T00-T07
+T09.3,"Verletzung des Rückenmarkes, Höhe nicht näher bezeichnet",T08-T14
+T13.4,"Verletzung eines nicht näher bezeichneten Blutgefäßes der unteren Extremität, Höhe nicht näher bezeichnet",T08-T14
+T14.1,Offene Wunde an einer nicht näher bezeichneten Körperregion,T08-T14
+T14.3,"Luxation, Verstauchung und Zerrung an einer nicht näher bezeichneten Körperregion",T08-T14
+T14.6,Verletzung von Muskeln und Sehnen an einer nicht näher bezeichneten Körperregion,T08-T14
+T14.8,Sonstige Verletzungen einer nicht näher bezeichneten Körperregion,T08-T14
+T14.9,"Verletzung, nicht näher bezeichnet",T08-T14
+T46.8,"Antivarikosa, einschließlich Verödungsmitteln",T36-T50
+T48.1,Muskelrelaxanzien [neuromuskuläre Blocker],T36-T50
+T78.3,Angioneurotisches Ödem,T66-T78
+T79.2,Traumatisch bedingte sekundäre oder rezidivierende Blutung,T79-T79
+T79.3,"Posttraumatische Wundinfektion, anderenorts nicht klassifiziert",T79-T79
+T79.5,Traumatische Anurie,T79-T79
+T80.1,"Gefäßkomplikationen nach Infusion, Transfusion oder Injektion zu therapeutischen Zwecken",T80-T88
+T81.0,"Blutung und Hämatom als Komplikation eines Eingriffes, anderenorts nicht klassifiziert",T80-T88
+T81.3,"Aufreißen einer Operationswunde, anderenorts nicht klassifiziert",T80-T88
+T81.4,"Infektion nach einem Eingriff, anderenorts nicht klassifiziert",T80-T88
+T81.5,"Fremdkörper, der versehentlich nach einem Eingriff in einer Körperhöhle oder Operationswunde zurückgeblieben ist",T80-T88
+T81.8,"Sonstige Komplikationen bei Eingriffen, anderenorts nicht klassifiziert",T80-T88
+T81.9,Nicht näher bezeichnete Komplikation eines Eingriffes,T80-T88
+T82.3,Mechanische Komplikation durch sonstige Gefäßtransplantate,T80-T88
+T82.4,Mechanische Komplikation durch Gefäßkatheter bei Dialyse,T80-T88
+T82.5,Mechanische Komplikation durch sonstige Geräte und Implantate im Herzen und in den Gefäßen,T80-T88
+T82.7,"Infektion und entzündliche Reaktion durch sonstige Geräte, Implantate oder Transplantate im Herzen und in den Gefäßen",T80-T88
+T82.8,"Sonstige näher bezeichnete Komplikationen durch Prothesen, Implantate oder Transplantate im Herzen und in den Gefäßen",T80-T88
+T83.0,Mechanische Komplikation durch einen Harnwegskatheter (Verweilkatheter),T80-T88
+T84.0,Mechanische Komplikation durch eine Gelenkendoprothese,T80-T88
+T84.4,"Mechanische Komplikation durch sonstige intern verwendete orthopädische Geräte, Implantate und Transplantate",T80-T88
+T84.5,Infektion und entzündliche Reaktion durch eine Gelenkendoprothese,T80-T88
+T84.6,Infektion und entzündliche Reaktion durch eine interne Osteosynthesevorrichtung [jede Lokalisation],T80-T88
+T84.9,"Nicht näher bezeichnete Komplikation durch orthopädische Endoprothese, Implantat oder Transplantat",T80-T88
+T88.2,Schock durch Anästhesie,T80-T88
+T88.8,"Sonstige näher bezeichnete Komplikationen bei chirurgischen Eingriffen und medizinischer Behandlung, anderenorts nicht klassifiziert",T80-T88
+T91.1,Folgen einer Fraktur der Wirbelsäule,T90-T98
+T91.8,Folgen sonstiger näher bezeichneter Verletzungen des Halses und des Rumpfes,T90-T98
+T93.0,Folgen einer offenen Wunde der unteren Extremität,T90-T98
+T93.1,Folgen einer Fraktur des Femurs,T90-T98
+T93.2,Folgen sonstiger Frakturen der unteren Extremität,T90-T98
+T94.0,Folgen von Verletzungen mehrerer Körperregionen,T90-T98
+T98.2,Folgen bestimmter Frühkomplikationen eines Traumas,T90-T98
+Z03.3,Beobachtung bei Verdacht auf neurologische Krankheit,Z00-Z13
+Z09.4,Nachuntersuchung nach Frakturbehandlung,Z00-Z13
+Z11,Spezielle Verfahren zur Untersuchung auf infektiöse und parasitäre Krankheiten,Z00-Z13
+Z20.2,"Kontakt mit und Exposition gegenüber Infektionen, die vorwiegend durch Geschlechtsverkehr übertragen werden",Z20-Z29
+Z22,Keimträger von Infektionskrankheiten,Z20-Z29
+Z22.8,Keimträger sonstiger Infektionskrankheiten,Z20-Z29
+Z25.8,Notwendigkeit der Impfung gegen sonstige näher bezeichnete einzelne Viruskrankheiten,Z20-Z29
+Z26.9,Notwendigkeit der Impfung gegen nicht näher bezeichnete Infektionskrankheit,Z20-Z29
+Z29.0,Isolierung als prophylaktische Maßnahme,Z20-Z29
+Z29.9,"Prophylaktische Maßnahme, nicht näher bezeichnet",Z20-Z29
+Z35.9,"Überwachung einer Risikoschwangerschaft, nicht näher bezeichnet",Z30-Z39
+Z42.4,Nachbehandlung unter Anwendung plastischer Chirurgie der unteren Extremität,Z40-Z54
+Z43.3,Versorgung eines Kolostomas,Z40-Z54
+Z46.1,Versorgen mit und Anpassen eines Hörgerätes,Z40-Z54
+Z46.5,Versorgen mit und Anpassen eines Ileostomas oder von sonstigen Vorrichtungen im Darm-Trakt,Z40-Z54
+Z47.0,Entfernung einer Metallplatte oder einer anderen inneren Fixationsvorrichtung,Z40-Z54
+Z47.9,"Orthopädische Nachbehandlung, nicht näher bezeichnet",Z40-Z54
+Z48.9,"Nachbehandlung nach chirurgischem Eingriff, nicht näher bezeichnet",Z40-Z54
+Z49.1,Extrakorporale Dialyse,Z40-Z54
+Z51,Sonstige medizinische Behandlung,Z40-Z54
+Z51.2,Andere Chemotherapie,Z40-Z54
+Z51.4,"Vorbereitung auf eine nachfolgende Behandlung, anderenorts nicht klassifiziert",Z40-Z54
+Z51.5,Palliativbehandlung,Z40-Z54
+Z51.8,Sonstige näher bezeichnete medizinische Behandlung,Z40-Z54
+Z54.0,Rekonvaleszenz nach chirurgischem Eingriff,Z40-Z54
+Z73,Probleme mit Bezug auf Schwierigkeiten bei der Lebensbewältigung,Z70-Z76
+Z74,Probleme mit Bezug auf Pflegebedürftigkeit,Z70-Z76
+Z74.0,Hilfsbedürftigkeit wegen eingeschränkter Mobilität,Z70-Z76
+Z74.1,Notwendigkeit der Hilfestellung bei der Körperpflege,Z70-Z76
+Z74.2,"Notwendigkeit der Hilfeleistung im Haushalt, wenn kein anderer Haushaltsangehöriger die Betreuung übernehmen kann",Z70-Z76
+Z74.3,Notwendigkeit der ständigen Beaufsichtigung,Z70-Z76
+Z74.8,Sonstige Probleme mit Bezug auf Pflegebedürftigkeit,Z70-Z76
+Z74.9,"Problem mit Bezug auf Pflegebedürftigkeit, nicht näher bezeichnet",Z70-Z76
+Z85.0,Bösartige Neubildung der Verdauungsorgane in der Eigenanamnese,Z80-Z99
+Z85.3,Bösartige Neubildung der Brustdrüse [Mamma] in der Eigenanamnese,Z80-Z99
+Z85.8,Bösartige Neubildungen sonstiger Organe oder Systeme in der Eigenanamnese,Z80-Z99
+Z86.6,Krankheiten des Nervensystems oder der Sinnesorgane in der Eigenanamnese,Z80-Z99
+Z86.7,Krankheiten des Kreislaufsystems in der Eigenanamnese,Z80-Z99
+Z87,Andere Krankheiten oder Zustände in der Eigenanamnese,Z80-Z99
+Z89.4,"Verlust des Fußes und des Knöchels, einseitig",Z80-Z99
+Z89.5,"Verlust der unteren Extremität unterhalb oder bis zum Knie, einseitig",Z80-Z99
+Z89.6,"Verlust der unteren Extremität oberhalb des Knies, einseitig",Z80-Z99
+Z89.9,"Extremitätenverlust, nicht näher bezeichnet",Z80-Z99
+Z90.1,Verlust der Mamma(e) [Brustdrüse],Z80-Z99
+Z90.4,Verlust anderer Teile des Verdauungstraktes,Z80-Z99
+Z90.6,Verlust anderer Teile des Harntraktes,Z80-Z99
+Z92,Medizinische Behandlung in der Eigenanamnese,Z80-Z99
+Z92.1,Dauertherapie (gegenwärtig) mit Antikoagulanzien in der Eigenanamnese,Z80-Z99
+Z92.2,Dauertherapie (gegenwärtig) mit anderen Arzneimitteln in der Eigenanamnese,Z80-Z99
+Z92.4,"Größerer operativer Eingriff in der Eigenanamnese, anderenorts nicht klassifiziert",Z80-Z99
+Z92.6,Zytostatische Chemotherapie wegen bösartiger Neubildung in der Eigenanamnese,Z80-Z99
+Z93.2,Vorhandensein eines Ileostomas,Z80-Z99
+Z93.3,Vorhandensein eines Kolostomas,Z80-Z99
+Z93.6,Vorhandensein anderer künstlicher Körperöffnungen der Harnwege,Z80-Z99
+Z94.5,Zustand nach Hauttransplantation,Z80-Z99
+Z95,Vorhandensein von kardialen oder vaskulären Implantaten oder Transplantaten,Z80-Z99
+Z95.1,Vorhandensein eines aortokoronaren Bypasses,Z80-Z99
+Z95.2,Vorhandensein einer künstlichen Herzklappe,Z80-Z99
+Z95.5,Vorhandensein eines Implantates oder Transplantates nach koronarer Gefäßplastik,Z80-Z99
+Z96.6,Vorhandensein von orthopädischen Gelenkimplantaten,Z80-Z99
+Z96.9,"Vorhandensein eines funktionellen Implantates, nicht näher bezeichnet",Z80-Z99
+Z97.8,Vorhandensein sonstiger näher bezeichneter medizinischer Geräte oder Hilfsmittel,Z80-Z99
+Z98.1,Zustand nach Arthrodese,Z80-Z99
+Z98.8,Sonstige näher bezeichnete Zustände nach chirurgischen Eingriffen,Z80-Z99
+Z99.2,Abhängigkeit von Dialyse bei Niereninsuffizienz,Z80-Z99
+Z99.8,"Abhängigkeit von sonstigen unterstützenden Apparaten, medizinischen Geräten oder Hilfsmitteln",Z80-Z99
+Z99.9,"Abhängigkeit von einem nicht näher bezeichneten unterstützenden Apparat, medizinischen Gerät oder Hilfsmittel",Z80-Z99
