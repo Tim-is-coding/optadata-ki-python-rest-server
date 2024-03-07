@@ -46,6 +46,11 @@ class ProductRemcommenderAiModel:
 
         # sort recommondations by probability
         recommondations.sort(key=lambda x: x.probability, reverse=True)
+
+        # for each recommondation, sort the prices by probability
+        for recommondation in recommondations:
+            recommondation.prices.sort(key=lambda x: x.percentage, reverse=True)
+
         return recommondations
 
     def _execute_recommondation_models(self, icd_10_code, krankenkassen_ik, bundesland):
