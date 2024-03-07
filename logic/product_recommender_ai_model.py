@@ -1,3 +1,5 @@
+import threading
+
 import joblib
 from tensorflow.keras.models import load_model
 import numpy as np
@@ -20,6 +22,10 @@ class ProductRemcommenderAiModel:
     # ai models
     model_product_adjusted = None
     model_price_adjusted = None
+
+    # threading
+    lock = threading.Lock()
+    threads = []
 
     def __new__(cls):
         if cls._instance is None:
@@ -49,26 +55,42 @@ class ProductRemcommenderAiModel:
             recommondation = recommendations[i]
             probability = probabilities[i]
 
-            # call the price prediction model for each recommendation
-            price_options = self._predict_price(icd_10_code, krankenkassen_ik, bundesland, recommondation)
+            thread = threading.Thread(target=self._predict_price_thread_safe,
+                                      args=(icd_10_code, krankenkassen_ik, bundesland,
+                                            recommondation,
+                                            probability, predictions))
+            thread.start()
+            self.threads.append(thread)
 
-            prices = []
-            for price_option in price_options:
-                price = price_option[0]
-                price_probability = price_option[1]
-
-                price_option_as_bean = AiRecommondationItem(value=str(price), percentage=int(price_probability * 100))
-                prices.append(price_option_as_bean)
-
-            hilfsmittelnummer_option_as_bean = AiRecommondationItem(value=recommondation,
-                                                                    percentage=int(probability * 100))
-
-            ai_recommondation = AiRecommondation(hilfsmittelNummer=hilfsmittelnummer_option_as_bean,
-                                                 prices=prices,
-                                                 probability=int(probability * 100))
-            predictions.append(ai_recommondation)
+        # Wait for all threads to complete
+        for thread in self.threads:
+            thread.join()
 
         return predictions
+
+    def _predict_price_thread_safe(self, icd_10_code, krankenkassen_ik, bundesland, recommondation, probability,
+                                   predictions):
+
+        # call the price prediction model for each recommendation
+        price_options = self._predict_price(icd_10_code, krankenkassen_ik, bundesland, recommondation)
+
+        prices = []
+        for price_option in price_options:
+            price = price_option[0]
+            price_probability = price_option[1]
+
+            price_option_as_bean = AiRecommondationItem(value=str(price), percentage=int(price_probability * 100))
+            prices.append(price_option_as_bean)
+
+        hilfsmittelnummer_option_as_bean = AiRecommondationItem(value=recommondation,
+                                                                percentage=int(probability * 100))
+
+        ai_recommondation = AiRecommondation(hilfsmittelNummer=hilfsmittelnummer_option_as_bean,
+                                             prices=prices,
+                                             probability=int(probability * 100))
+
+        with self.lock:  # Ensure thread-safe append operation
+            predictions.append(ai_recommondation)
 
     def _predict_product(self, icd_10_code, krankenkassen_ik, bundesland):
         icd_10_code_encoded = self.le_icd10.transform([icd_10_code])

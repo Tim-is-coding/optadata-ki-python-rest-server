@@ -60,7 +60,7 @@ class ChatGPTDiagnoneToICD10CodeUtil:
 
         # Run second model
         response_2 = openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-4-turbo-preview",
             messages=[
                 {"role": "system", "content": "You are a helpful assistant."},
                 {"role": "user", "content": prompt_2}
