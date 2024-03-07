@@ -42,7 +42,11 @@ class ProductRemcommenderAiModel:
         assert krankenkassen_ik is not None
         assert bundesland is not None
 
-        return self._execute_recommondation_models(icd_10_code, krankenkassen_ik, bundesland)
+        recommondations = self._execute_recommondation_models(icd_10_code, krankenkassen_ik, bundesland)
+
+        # sort recommondations by probability
+        recommondations.sort(key=lambda x: x.probability, reverse=True)
+        return recommondations
 
     def _execute_recommondation_models(self, icd_10_code, krankenkassen_ik, bundesland):
         predictions = []

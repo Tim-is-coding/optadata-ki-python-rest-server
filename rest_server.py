@@ -52,7 +52,11 @@ def diagnose_to_icd10_code(query: Optional[str] = None):
 
 @app.post("/jens/ai/suggestions/", response_model=List[AiRecommondation])
 async def create_recommendation(recommendation_request: RecommendationRequest):
-    return ProductRemcommenderAiModel().recommend_hilfsmittel(recommendation_request)
+    try:
+        return ProductRemcommenderAiModel().recommend_hilfsmittel(recommendation_request)
+    except Exception as e:
+        print(f"Error in create_recommendation: {e}")
+        return []
 
 
 @app.exception_handler(RequestValidationError)
