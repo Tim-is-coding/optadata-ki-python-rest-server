@@ -40,6 +40,7 @@ async def startup_event():
             RecommendationRequest(krankenkassenIk="105313145", bundesLand="Hessen", icd10Code="R32"))
 
 
+
 @app.get("/")
 def hello():
     return 'Dem CIO sein REST Service is up and running!'
