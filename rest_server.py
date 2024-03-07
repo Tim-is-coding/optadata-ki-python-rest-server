@@ -16,7 +16,7 @@ app = FastAPI()
 # Define a list of allowed origins for CORS
 allowed_origins = [
     "http://localhost:51515",
-    "https://ictorious-island-0a4be4b03.4.azurestaticapps.net"
+    "https://victorious-island-0a4be4b03.4.azurestaticapps.net"
 ]
 
 app.add_middleware(
@@ -68,6 +68,7 @@ async def validation_exception_handler(request: Request, exc: RequestValidationE
         status_code=422,
         content={"detail": exc.errors(), "body": exc.body},
     )
+
 
 if __name__ == '__main__':
     uvicorn.run('rest_server:app', host='0.0.0.0', port=8000)
