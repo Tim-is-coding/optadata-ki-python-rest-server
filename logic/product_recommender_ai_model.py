@@ -39,7 +39,6 @@ class ProductRemcommenderAiModel:
         return self._execute_recommondation_models(icd_10_code, krankenkassen_ik, bundesland)
 
     def _execute_recommondation_models(self, icd_10_code, krankenkassen_ik, bundesland):
-
         predictions = []
 
         # step 1: predict product
@@ -58,13 +57,19 @@ class ProductRemcommenderAiModel:
                 price = price_option[0]
                 price_probability = price_option[1]
 
-                ai_recommondation_item = AiRecommondationItem(value=price, percentage=price_probability)
-                prices.append(ai_recommondation_item)
+                price_option_as_bean = AiRecommondationItem(value=str(price), percentage=int(price_probability * 100))
+                prices.append(price_option_as_bean)
 
-            ai_recommondation = AiRecommondation(hilfsmittelNummer=recommondation, prices=price_options, probability=probability)
+            hilfsmittelnummer_option_as_bean = AiRecommondationItem(value=recommondation,
+                                                                    percentage=int(probability * 100))
+
+            ai_recommondation = AiRecommondation(hilfsmittelNummer=hilfsmittelnummer_option_as_bean,
+                                                 prices=prices,
+                                                 probability=int(probability * 100))
             predictions.append(ai_recommondation)
 
         return predictions
+
     def _predict_product(self, icd_10_code, krankenkassen_ik, bundesland):
         icd_10_code_encoded = self.le_icd10.transform([icd_10_code])
         krankenkassen_ik_encoded = self.le_insurance.transform([krankenkassen_ik])
@@ -92,7 +97,7 @@ class ProductRemcommenderAiModel:
     def _predict_price(self, icd_10_code, krankenkassen_ik, bundesland, hilfsmittel_nummer):
         icd_10_code_encoded = self.le_icd10.transform([icd_10_code])
         krankenkassen_ik_encoded = self.le_insurance.transform([krankenkassen_ik])
-        positionsnummer_encoded = self.le_positionsnummer.transform(hilfsmittel_nummer)[0]
+        positionsnummer_encoded = self.le_positionsnummer.transform([hilfsmittel_nummer])
 
         bundesland_zeros = np.zeros((1, len(self.bundesland_mapping)))
         if bundesland != 'Brandenburg':
