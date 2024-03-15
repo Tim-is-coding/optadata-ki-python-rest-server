@@ -43,7 +43,7 @@ async def startup_event():
 
 @app.get("/")
 def hello():
-    return 'Dem CIO sein REST Service is up and running! :)'
+    return 'Server running!'
 
 
 @app.get("/icd10_code/")
