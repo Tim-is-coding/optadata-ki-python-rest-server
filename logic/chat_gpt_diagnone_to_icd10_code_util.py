@@ -6,7 +6,7 @@ class ChatGPTDiagnoneToICD10CodeUtil:
     _instance = None
     df_block = None
     df_category = None
-    __GPTapi_key = "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"
+    __GPTapi_key = "PUT_YOUR_OPENAI_API_KEY_HERE"
 
     def __new__(cls):
         if cls._instance is None:
