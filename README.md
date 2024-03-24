@@ -41,7 +41,7 @@ Server starten
 
 ## Mitwirkende
 
- - Jens Hauser (KI Algorithmen)
+ - [Jens Hauser](https://github.com/jenshauser1994) (KI Algorithmen)
  - [Florian Sander](https://github.com/flo-is-coding) (UI und UX)
  - [Tim Rothenpieler](https://github.com/Tim-is-coding) (Implementierung)
 
