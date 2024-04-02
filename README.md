@@ -1,4 +1,3 @@
-
 # 2024 Opta Data KI Challenge REST Backend
 
 ## Inhalt der Challenge
